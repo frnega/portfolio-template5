@@ -1,0 +1,75 @@
+.navigation {
+  display: flex;
+  flex-direction: column;
+}
+
+header.mobile_header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.image_geometry_1 {
+  margin-top: 2%;
+  margin-right: 60%;
+  background-image: url(image/image_geometry_1.jpg);
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 74px;
+}
+
+header.mobile_header nav {
+  margin-top: 10%;
+  margin-right: 7%;
+}
+
+h1 {
+  font-family: 'Playfair Display', sans-serif;
+  font-size: 50px;
+  align-self: start;
+  line-height: 100%;
+  margin: 50px;
+  font-style: normal;
+  color: #1a2236;
+  font-weight: normal;
+}
+
+.main_pargraph {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -0.01em;
+  color: #1a2236;
+  margin: 50px;
+}
+
+.collaboration {
+  width: 80%;
+  height: 81px;
+  text-decoration: none;
+  color: #fff;
+  font-family: Poppins, sans-serif;
+  background-color: #1a2236;
+  transition: solid 0s;
+  margin: auto;
+  border-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.collaboration:hover,
+.collaboration:active {
+  background-color: #fff;
+  color: #1a2236;
+  border-color: #1a2236;
+}
+
+.image_geometry_2 {
+  background-image: url(image/image_geometry_2.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 610px;
+}

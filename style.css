@@ -1,20 +1,24 @@
-header.mobile_header {
+header.mobile_header
+{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
-header.mobile_header nav {
+header.mobile_header nav
+{
   margin-top: 10%;
   margin-right: 7%;
 }
 
-.navigation {
+.navigation
+{
   display: flex;
   flex-direction: column;
 }
 
-h1 {
+h1
+{
   font-family: 'Playfair Display', sans-serif;
   font-size: 50px;
   align-self: start;
@@ -25,7 +29,8 @@ h1 {
   font-weight: normal;
 }
 
-.main_pargraph {
+.main_pargraph
+{
   font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -34,14 +39,14 @@ h1 {
   letter-spacing: -0.01em;
   color: #1a2236;
   margin: 50px;
-  
 }
 
-.collaboration {
+.collaboration
+{
   width: 80%;
   height: 81px;
   text-decoration: none;
-  color: #fff; 
+  color: #fff;
   font-family: Poppins, sans-serif;
   background-color: #1a2236;
   transition: solid 0s;
@@ -53,13 +58,15 @@ h1 {
 }
 
 .collaboration:hover,
-.collaboration:active {
+.collaboration:active
+{
   background-color: #fff;
   color: #1a2236;
   border-color: #1a2236;
 }
 
-.image_geometry_2 {
+.image_geometry_2
+{
   width: 100%;
-  height:160px;
+  height: 160px;
 }

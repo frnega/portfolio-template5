@@ -9,13 +9,13 @@ header.mobile_header {
   justify-content: space-between;
 }
 
-.image_geometry_1{
+.image_geometry_1 {
   margin-top: 2%;
   margin-right: 60%;
   background-image: url(image/image_geometry_1.jpg);
   background-repeat: no-repeat;
   width: 200px;
-  height:74px;
+  height: 74px;
 }
 
 header.mobile_header nav {

@@ -71,5 +71,237 @@ h1 {
   background-image: url(image/image_geometry_2.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
-  height: 610px;
+  height: 260px;
+}
+
+h2 {
+  font-family: 'Playfair Display', sans-serif;
+  margin-left: 5%;
+  font-size: 50px;
+}
+
+.worksection1 {
+  background-image: url(image/Rectangle21.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 260px;
+  display: grid;
+}
+
+.worksection2 {
+  background-image: url(image/Rectangle22.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 260px;
+  display: grid;
+}
+
+.worksection3 {
+  background-image: url(image/Rectangle23.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 260px;
+  display: grid;
+}
+
+.worksection4 {
+  background-image: url(image/Rectangle24.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 260px;
+  display: grid;
+}
+
+.worksection5 {
+  background-image: url(image/Rectangle25.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 260px;
+  display: grid;
+}
+
+.rectangle{
+  background-color: #1a2236;
+  height: 156px;
+}
+
+h3 {
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  text-align: left;
+  font-size: 20px;
+  margin-left: 40px;
+}
+
+.buttons {
+  display: flex;
+  list-style: none;
+  box-sizing: border-box;
+  justify-content: space-between;
+}
+
+.btn {
+  background-color: #98dede;
+  border-color: transparent;
+  width: auto;
+}
+
+.Ruby {
+  flex: 50%;
+}
+
+.HTMLCSS {
+  flex: 50%;
+}
+
+.Js {
+  flex: 50%;
+}
+
+.see_projectbtn {
+  justify-self: center;
+  background-color: #1a2236;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  width: 210px;
+  height: 50px;
+  border-color: white;
+  margin-bottom: 10%;
+  margin-left: 40px;
+}
+
+.see_projectbtn span {
+  margin-right: 4%;
+}
+
+.see_projectbtn:hover,
+.see_projectbtn:active {
+  background-color: rgb(255, 255, 255);
+  color: #1a2236;
+  border-color: transparent;
+}
+
+.About-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.about_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-about {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.get_cv {
+  width: 80%;
+  height: 81px;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  background-color: #1a2236;
+  transition: solid 1s;
+  margin: auto;
+  border-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.get_cv:hover,
+.get_cv:active {
+  color: #1a2236;
+  border-color: transparent;
+  background-color: rgb(39, 17, 80);
+}
+
+.main-about p {
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  text-align: left;
+  margin-bottom: 30px;
+  margin-left: 40px;
+  margin-right: 30px;
+  margin-top: 0%;
+}
+
+.first-about h2 {
+  margin-left: 10%;
+}
+
+h4 {
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  position: relative;
+  top: 22px;
+}
+
+.about_second {
+  background-color: #1c528a;
+  background-size: 500px 100%;
+  margin: 3%;
+  width: 300px;
+}
+
+.about_second .effect_1 {
+  height: 100px;
+  position: relative;
+  color: #547da7;
+  margin: 5px;
+  bottom: 30px;
+  top: 6px;
+  left: 193px;
+}
+
+.about_third {
+  background-color: #e2505c;
+  margin: 3%;
+  background-size: 500px 100%;
+  width: 300px;
+}
+
+.about_third .effect_2 {
+  height: 100px;
+  position: relative;
+  color: #547da7;
+  margin: 5px;
+  bottom: 30px;
+  top: 6px;
+  left: 193px;
+}
+
+.about-fourth {
+  background-color: #febf52;
+  margin: 3%;
+  height: 400px;
+  width: 300px;
+}
+
+.about-fourth .effect_3 {
+  height: 100px;
+  position: relative;
+  color: #547da7;
+  margin: 5px;
+  bottom: 30px;
+  top: 6px;
+  left: 193px;
+}
+
+.About-section ul {
+  color: #fff;
+  position: center;
+  height: 200px;
+  font-family: 'Poppins', sans-serif;
+  left: 93px;
+  top: 63px;
 }

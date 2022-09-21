@@ -235,7 +235,7 @@ h3 {
   margin-top: 0%;
 }
 
-.first-about h2 {
+.about_language h2 {
   margin-left: 10%;
 }
 
@@ -299,7 +299,7 @@ h4 {
 
 .About-section ul {
   color: #fff;
-  position: center;
+  position: inherit;
   height: 200px;
   font-family: 'Poppins', sans-serif;
   left: 93px;

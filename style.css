@@ -127,7 +127,7 @@ h2 {
 }
 
 h3 {
-  color: #ffffff;
+  color: #fff;
   font-family: 'Poppins', sans-serif;
   text-align: left;
   font-size: 20px;
@@ -190,7 +190,6 @@ h3 {
 .About-section {
   display: flex;
   flex-direction: column;
-  display: grid;
 }
 
 .about_container {
@@ -244,7 +243,6 @@ h4 {
   color: white;
   font-family: 'Poppins', sans-serif;
   font-size: 20px;
-  position: relative;
   top: 22px;
 }
 

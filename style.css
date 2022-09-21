@@ -123,6 +123,7 @@ h2 {
 .rectangle{
   background-color: #1a2236;
   height: 156px;
+  display: grid;
 }
 
 h3 {
@@ -189,6 +190,7 @@ h3 {
 .About-section {
   display: flex;
   flex-direction: column;
+  display: grid;
 }
 
 .about_container {
@@ -246,14 +248,14 @@ h4 {
   top: 22px;
 }
 
-.about_second {
+.about_language {
   background-color: #1c528a;
   background-size: 500px 100%;
   margin: 3%;
   width: 300px;
 }
 
-.about_second .effect_1 {
+.about_language .effect_1 {
   height: 100px;
   position: relative;
   color: #547da7;
@@ -263,14 +265,14 @@ h4 {
   left: 193px;
 }
 
-.about_third {
+.about_framework {
   background-color: #e2505c;
   margin: 3%;
   background-size: 500px 100%;
   width: 300px;
 }
 
-.about_third .effect_2 {
+.about_framework .effect_2 {
   height: 100px;
   position: relative;
   color: #547da7;
@@ -280,14 +282,14 @@ h4 {
   left: 193px;
 }
 
-.about-fourth {
+.about_Skills {
   background-color: #febf52;
   margin: 3%;
   height: 400px;
   width: 300px;
 }
 
-.about-fourth .effect_3 {
+.about_Skills .effect_3 {
   height: 100px;
   position: relative;
   color: #547da7;

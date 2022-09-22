@@ -85,6 +85,10 @@ h2 {
   font-size: 50px;
 }
 
+.Works-section { 
+  display: grid;
+}
+
 .worksection1 {
   background-image: url(image/Rectangle21.jpg);
   background-repeat: no-repeat;

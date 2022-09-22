@@ -85,7 +85,7 @@ h2 {
   font-size: 50px;
 }
 
-.Works-section { 
+.Works-section {
   display: grid;
 }
 
@@ -131,7 +131,7 @@ h2 {
 
 .rectangle {
   background-color: #1a2236;
-  height: 156px; 
+  height: 156px;
 }
 
 h3 {
@@ -143,7 +143,7 @@ h3 {
 }
 
 .buttons {
-  display: flex; 
+  display: flex;
   list-style: inside;
   box-sizing: border-box;
   margin-left: 1px;
@@ -181,7 +181,7 @@ h3 {
   height: 50px;
   border-color: white;
   margin-bottom: 10%;
-  margin-left: 20px; 
+  margin-left: 20px;
 }
 
 .see_projectbtn span {

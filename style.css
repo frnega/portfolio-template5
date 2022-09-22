@@ -209,7 +209,7 @@ h3 {
 }
 
 .get_cv {
-  width: 80%;
+  width: 100%;
   height: 81px;
   color: white;
   font-family: 'Poppins', sans-serif;
@@ -253,25 +253,25 @@ h4 {
 .about_language {
   background-color: #1c528a;
   background-size: 500px 100%;
-  margin: 3%;
-  width: 300px;
+  margin-left: 40px;
+  margin-top: 20px;
+  width: 100% `f;
 }
 
 .about_language .effect_1 {
-  height: 100px;
   position: relative;
   color: #547da7;
   margin: 5px;
   bottom: 30px;
   top: 6px;
-  left: 193px;
+  left: 340px;
 }
 
 .about_framework {
   background-color: #e2505c;
   margin: 3%;
   background-size: 500px 100%;
-  width: 300px;
+  width: 450px;
 }
 
 .about_framework .effect_2 {
@@ -281,14 +281,14 @@ h4 {
   margin: 5px;
   bottom: 30px;
   top: 6px;
-  left: 193px;
+  left: 340px;
 }
 
 .about_Skills {
   background-color: #febf52;
   margin: 3%;
   height: 400px;
-  width: 300px;
+  width: 450px;
 }
 
 .about_Skills .effect_3 {
@@ -298,7 +298,7 @@ h4 {
   margin: 5px;
   bottom: 30px;
   top: 6px;
-  left: 193px;
+  left: 350px;
 }
 
 .About-section ul {
@@ -306,6 +306,5 @@ h4 {
   position: inherit;
   height: 100px;
   font-family: 'Poppins', sans-serif;
-  left: 93px;
-  top: 63px;
+  margin: 100px;
 }

@@ -209,7 +209,7 @@ h3 {
 }
 
 .get_cv {
-  width: 100%;
+  width: 450px;
   height: 81px;
   color: white;
   font-family: 'Poppins', sans-serif;
@@ -253,12 +253,12 @@ h4 {
 .about_language {
   background-color: #1c528a;
   background-size: 500px 100%;
-  margin-left: 40px;
-  margin-top: 20px;
-  width: 100% `f;
+  margin: 3%;
+  width: 450px;
 }
 
 .about_language .effect_1 {
+  height: 100px;
   position: relative;
   color: #547da7;
   margin: 5px;

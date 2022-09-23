@@ -144,7 +144,7 @@ h3 {
 
 .buttons {
   display: flex;
-  list-style: inside;
+  list-style: none;
   box-sizing: border-box;
   margin-left: 20px;
 }

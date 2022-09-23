@@ -146,13 +146,16 @@ h3 {
   display: flex;
   list-style: inside;
   box-sizing: border-box;
+  list-style: none;
+  margin-left: 20px;
 }
 
 .btn {
   background-color: #98dede;
   border-color: transparent;
   width: 130px;
-  height: 30px;
+  height: 30px; 
+  margin-right: 20px; 
 }
 
 .see_projectbtn {

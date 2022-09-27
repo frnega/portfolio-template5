@@ -202,14 +202,13 @@ h3 {
   display: flex;
   flex-direction: column;
   width: 320px;
- 
 }
 
 .about_container {
   display: flex;
   flex-direction: column;
   align-items: center;
- width:320px;
+  width: 320px;
 }
 
 .main-about {
@@ -249,7 +248,6 @@ h3 {
   margin-left: 16px;
   margin-right: 30px;
   margin-top: 0%;
- 
 }
 
 .about_language h2 {
@@ -333,21 +331,21 @@ h4 {
 
 footer {
   margin-right: 0;
-  margin-top: 60px;
-  width:320px;
+  margin-top: 10px;
+  width: 320px;
 }
 
 .contact-form {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
- 
 }
 
 .contact-form .geometry1 {
   width: 40%;
   height: 50%;
-  margin-top: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 .form ul {
@@ -416,18 +414,18 @@ footer {
   text-align: right;
   margin-left: -160px;
   margin-bottom: 20px;
-  margin-top: 40px
+  margin-top: 40px;
 }
 
 .contact-para {
-  font-size: 20px;
+  font-size: 14px;
   font-family: 'Poppins', sans-serif;
   text-align: left;
   margin-bottom: 30px;
   margin-left: 18px;
   margin-right: 14px;
   margin-top: 0%;
-  width:320px;
+  width: 320px;
 }
 
 .form-button {
@@ -462,7 +460,8 @@ footer {
   background-repeat: no-repeat;
   height: 150px;
   width: 320px;
-  margin-left: 0px;
+  margin-left: 0;
+  margin-top: 40px;
 }
 
 .get_my_resume {
@@ -471,7 +470,6 @@ footer {
   position: relative;
   left: 25px;
   top: 15%;
-
 }
 
 .links ul {
@@ -479,8 +477,6 @@ footer {
   position: relative;
   top: 15%;
   justify-content: space-between;
- 
+  margin-left: 19px;
+  margin-right: 19px;
 }
-
- 
-

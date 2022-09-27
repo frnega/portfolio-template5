@@ -54,7 +54,6 @@ h1 {
 }
 
 .collaboration {
-  width: 80%;
   height: 81px;
   text-decoration: none;
   color: #fff;
@@ -362,7 +361,6 @@ footer {
   width: 288px;
   padding-left: 14px;
   padding-top: 14px;
-  margin-top: 10px;
   margin-left: 20px;
   margin-top: 20px;
   border-width: 0.1px;

@@ -102,14 +102,13 @@
     color: #fff;
     font-family: Poppins, sans-serif;
     background-color: #1a2236;
-    transition: solid 0s;
+    transition: solid 2s;
     margin-left: 100px;
     border-color: transparent;
     display: flex;
     margin-top: 59px;
     align-items: center;
     justify-content: center;
-    transition: width 2s;
   }
 
   .collaboration:hover,

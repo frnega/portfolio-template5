@@ -1,20 +1,4 @@
 @media only screen and (min-width: 760px) {
-  .form {
-    display: none;
-  }
-
-  .contact-form {
-    display: none;
-  }
-
-  .headline-conatact {
-    display: none;
-  }
-
-  .contact-hedline {
-    display: none;
-  }
-
   .contact-para {
     display: none;
   }

@@ -109,6 +109,7 @@
     margin-top: 59px;
     align-items: center;
     justify-content: center;
+    transition: width 2s;
   }
 
   .collaboration:hover,

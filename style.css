@@ -1,52 +1,44 @@
 @media only screen and (min-width: 760px)
 {
-  body
-  {
+  body {
     background-color: #fff;
     overflow-x: hidden;
   }
 
-  *
-  {
+  * {
     margin: 0;
     padding: 0;
   }
 
-  .menu-button
-  {
+  .menu-button {
     display: none;
   }
 
-  .Desktop-head
-  {
+  .Desktop-head {
     display: flex;
     list-style: none;
     justify-content: center;
   }
 
   .Desktop-head a:link,
-  .Desktop-head a:visited
-  {
+  .Desktop-head a:visited {
     text-decoration: none;
     color: #1a2236;
     transition: 0.1s;
   }
 
-  .hover
-  {
+  .hover {
     color: #1a2236;
     border-bottom: 2px solid #1a2236;
     transition: border 0.5s;
   }
 
   .Desktop-head a:hover,
-  .Desktop-head a:active
-  {
+  .Desktop-head a:active {
     border-bottom: 2px solid #1a2236;
   }
 
-  .Desktop-head a::after
-  {
+  .Desktop-head a::after {
     display: none;
     height: 2px;
     background-color: #1a2236;
@@ -55,14 +47,12 @@
     margin: 0 auto;
   }
 
-  .Desktop-head li
-  {
+  .Desktop-head li {
     margin-right: 5%;
     margin-top: 38px;
   }
 
-  .geomtry-desk
-  {
+  .geomtry-desk {
     margin-top: 4%;
     float: right;
     width: 702px;
@@ -71,16 +61,14 @@
     margin-right: 5px !important;
   }
 
-  .dot-img
-  {
+  .dot-img {
     width: 11%;
     position: absolute;
     top: 61vw;
     left: 35.2vw;
   }
 
-  h1
-  {
+  h1 {
     font-family: 'Playfair Display', sans-serif;
     font-size: 110px;
     align-self: start;
@@ -94,8 +82,7 @@
     font-weight: 400;
   }
 
-  .main_pargraph
-  {
+  .main_pargraph {
     font-family: Poppins, sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -109,8 +96,7 @@
     height: 84px;
   }
 
-  .collaboration
-  {
+  .collaboration {
     width: 254px;
     height: 70px;
     text-decoration: none;
@@ -127,15 +113,13 @@
   }
 
   .collaboration:hover,
-  .collaboration:active
-  {
+  .collaboration:active {
     background-color: #fff;
     color: #1a2236;
     border-color: #1a2236;
   }
 
-  h2
-  {
+  h2 {
     font-family: 'Playfair Display', sans-serif;
     margin-left: 145px;
     font-size: 110px;
@@ -144,16 +128,14 @@
     float: left;
   }
 
-  h5
-  {
+  h5 {
     font-family: 'Playfair Display', sans-serif;
     font-size: 110px;
     width: 295px;
     height: 110px;
   }
 
-  h3
-  {
+  h3 {
     color: #fff;
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
@@ -162,16 +144,14 @@
     height: 48px;
   }
 
-  .buttons
-  {
+  .buttons {
     display: flex;
     list-style: none;
     box-sizing: border-box;
     margin-left: 60px;
   }
 
-  .worksection1
-  {
+  .worksection1 {
     background-image: url(image/Rectangle21.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
@@ -181,14 +161,12 @@
     margin-top: 402px;
   }
 
-  .imagedeskall
-  {
+  .imagedeskall {
     display: flex;
     flex-direction: row;
   }
 
-  .imgdesk1
-  {
+  .imgdesk1 {
     background-image: url(image/Rectangle24.png);
     background-repeat: no-repeat;
     background-size: 100%;
@@ -198,8 +176,7 @@
     margin-top: 120px;
   }
 
-  .imgdesk5
-  {
+  .imgdesk5 {
     background-image: url(image/image-geometry_5.png);
     background-repeat: no-repeat;
     background-size: 100%;
@@ -209,8 +186,7 @@
     margin-top: -10px;
   }
 
-  .imgdesk3
-  {
+  .imgdesk3 {
     background-image: url(image/image-geometry_2.png);
     background-repeat: no-repeat;
     background-size: 100%;
@@ -220,8 +196,7 @@
     margin-left: 400px;
   }
 
-  .rectangle6
-  {
+  .rectangle6 {
     background-color: #1a2236;
     height: 210px;
     width: 465px;
@@ -229,8 +204,7 @@
     margin-top: 15px;
   }
 
-  .imgdesk2
-  {
+  .imgdesk2 {
     background-image: url(image/Rectangle27.png);
     background-repeat: no-repeat;
     background-size: 100%;
@@ -240,8 +214,7 @@
     margin-top: -50px;
   }
 
-  .worksection6
-  {
+  .worksection6 {
     background-image: url(image/Rectangle26.png);
     background-repeat: no-repeat;
     background-size: 100%;
@@ -251,8 +224,7 @@
     margin-top: -590px;
   }
 
-  .worksection7
-  {
+  .worksection7 {
     background-image: url(image/Rectangle47.png);
     background-repeat: no-repeat;
     background-size: 100%;
@@ -262,8 +234,7 @@
     margin-top: -90px;
   }
 
-  .imgdesk6
-  {
+  .imgdesk6 {
     background-image: url(image/image-geometry_4.png);
     background-repeat: no-repeat;
     background-size: 100%;
@@ -273,8 +244,7 @@
     margin-top: -90px;
   }
 
-  .imgdesk4
-  {
+  .imgdesk4 {
     background-image: url(image/image-geometry_3.png);
     background-repeat: no-repeat;
     background-size: 100%;
@@ -283,41 +253,34 @@
     margin-left: 710px;
   }
 
-  .worksection2
-  {
+  .worksection2 {
     display: none;
   }
 
-  .worksection3
-  {
+  .worksection3 {
     display: none;
   }
 
-  .worksection4
-  {
+  .worksection4 {
     display: none;
   }
 
-  .worksection5
-  {
+  .worksection5 {
     display: none;
   }
 
-  .rectangle1
-  {
+  .rectangle1 {
     background-color: #1a2236;
     height: 193px;
     width: 860px;
     margin-left: 480px;
   }
 
-  .rectangle
-  {
+  .rectangle {
     display: none;
   }
 
-  .btn
-  {
+  .btn {
     background-color: #98dede;
     border-color: transparent;
     width: 87px;
@@ -325,8 +288,7 @@
     margin-right: 10px;
   }
 
-  .see_projectbtn
-  {
+  .see_projectbtn {
     justify-self: center;
     background-color: #1a2236;
     color: white;
@@ -343,74 +305,60 @@
     margin-left: 60px;
   }
 
-  .see_projectbtn span
-  {
+  .see_projectbtn span {
     margin-right: 4%;
   }
 
   .see_projectbtn:hover,
-  .see_projectbtn:active
-  {
+  .see_projectbtn:active {
     background-color: rgb(255, 255, 255);
     color: #1a2236;
     border-color: transparent;
   }
-  
-  /* about */
-  .About-section-desk
-  {
+ 
+  .About-section-desk {
     display: flex;
     width: 320px;
     float: left;
   }
 
-  .about_container-desk
-  {
+  .about_container-desk {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 320px;
   }
 
-  .main-about-desk
-  {
+  .main-about-desk {
     display: flex;
     flex-direction: column;
-    /* justify-content: space-between;
-    width: 288px; */
     margin-left: 460px;
     margin-top: 190px;
     margin-bottom: 400px;
   }
 
-  .get_cv-desk
-  {
+  .get_cv-desk {
     width: 288px;
     height: 50px;
     color: white;
     font-family: 'Poppins', sans-serif;
     background-color: #1a2236;
     transition: solid 1s;
-    /* margin-left: 16px; */
     border-color: transparent;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-left: 16px;
-    /* margin-top: -190px; */
-    ;
   }
 
   .get_cv-desk:hover,
-  .get_cv-desk:active
-  {
+  .get_cv-desk:active {
     color: #1a2236;
     border-color: transparent;
     background-color: rgb(39, 17, 80);
   }
 
-  .main-about-desk p
-  {
+  .main-about-desk p {
     font-size: 14px;
     font-family: 'Poppins', sans-serif;
     line-height: 21px;
@@ -421,25 +369,14 @@
     height: 86px;
   }
   
-  /* .desktop-head{
-    font-family: 'Playfair Display', sans-serif;
-    margin-left: 145px;
-    font-size: 110px;
-    margin-top: 420px;
-    float: left;
-
-  } */
-  
-  h4
-  {
+  h4 {
     color: white;
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
     top: 22px;
   }
 
-  .about_language-desk
-  {
+  .about_language-desk {
     background-color: #1c528a;
     background-size: 500px 100%;
     width: 289px;
@@ -447,8 +384,7 @@
     margin-top: 150px;
   }
 
-  .about_language-desk .effect_1
-  {
+  .about_language-desk .effect_1 {
     height: 100px;
     position: relative;
     color: #547da7;
@@ -458,8 +394,7 @@
     left: 187px;
   }
 
-  .about_framework-desk
-  {
+  .about_framework-desk {
     background-color: #e2505c;
     background-size: 500px 100%;
     width: 289px;
@@ -467,8 +402,7 @@
     margin-top: -415px;
   }
 
-  .about_framework-desk .effect_2
-  {
+  .about_framework-desk .effect_2 {
     height: 100px;
     position: relative;
     color: #547da7;
@@ -478,24 +412,21 @@
     left: 187px;
   }
 
-  .about_Skills-desk
-  {
+  .about_Skills-desk {
     background-color: #febf52;
     margin-left: 160px;
     height: 400px;
     width: 289px;
   }
 
-  .dotabout
-  {
+  .dotabout {
     margin-left: 370px;
     margin-top: -1770px;
     height: 160px;
     width: 160px;
   }
 
-  .about_Skills-desk .effect_3
-  {
+  .about_Skills-desk .effect_3 {
     height: 100px;
     position: relative;
     color: #547da7;
@@ -505,8 +436,7 @@
     left: 187px;
   }
 
-  .About-section-desk ul
-  {
+  .About-section-desk ul {
     color: #fff;
     position: inherit;
     height: 100px;
@@ -514,64 +444,51 @@
     margin: 100px;
   }
 
-  .About-section
-  {
+  .About-section {
     display: none;
   }
 
-  .main-about
-  {
+  .main-about {
     display: none;
   }
 
-  .about_container
-  {
+  .about_container {
     display: none;
   }
 
-  .about_language
-  {
+  .about_language {
     display: none;
   }
 
-  .about_framework
-  {
+  .about_framework {
     display: none;
   }
 
-  .about_Skills
-  {
+  .about_Skills {
     display: none;
   }
-  /* footer desktop */
-  
  
-  
-  .contact-form-desk
-  {
+  .contact-form-desk {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
   }
 
-  .contact-form-desk .geometry1
-  {
+  .contact-form-desk .geometry1 {
     width: 263px;
     height: 350px;
     margin-top: 1100px;
     margin-left: -310px;
   }
 
-  .contact-form-desk-2 .geometry1
-  {
+  .contact-form-desk-2 .geometry1 {
     width: 263px;
     height: 350px;
     margin-left: 1080px;
     margin-top: -100px;
   }
 
-  .contact-hedline-desk
-  {
+  .contact-hedline-desk {
     font-family: 'Playfair Display', sans-serif;
     font-size: 110px;
     width: 548px;
@@ -582,13 +499,11 @@
     display: flex;
   }
 
-  .form-desk ul
-  {
+  .form-desk ul {
     list-style: none;
   }
 
-  #mail
-  {
+  #mail {
     background-image: url(image/Your_email.png);
     background-repeat: no-repeat;
     background-position-x: 10px;
@@ -605,8 +520,7 @@
     display: flex;
   }
 
-  #name
-  {
+  #name {
     display: flex;
     background-image: url(image/Your_name.png);
     background-repeat: no-repeat;
@@ -623,8 +537,7 @@
     border-color: #bbbabd;
   }
 
-  #Message
-  {
+  #Message {
     background-image: url(image/Enter_your_message_here....png);
     background-repeat: no-repeat;
     background-position-x: 10px;
@@ -643,23 +556,20 @@
     transition: solid 0.5s;
   }
 
-  .headline_contact-desk
-  {
+  .headline_contact-desk {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 
-  .contact-hedline-desk h2
-  {
+  .contact-hedline-desk h2 {
     text-align: right;
     margin-left: -160px;
     margin-bottom: 20px;
     margin-top: 40px;
   }
 
-  .contact-para-desk
-  {
+  .contact-para-desk {
     font-size: 14px;
     font-family: 'Poppins', sans-serif;
     text-align: left;
@@ -671,8 +581,7 @@
     height: 63px;
   }
 
-  .form-button-desk
-  {
+  .form-button-desk {
     height: 50px;
     width: 288px;
     color: white;
@@ -688,15 +597,13 @@
   }
 
   .form-button-desk:hover,
-  .form-button-desk:active
-  {
+  .form-button-desk:active {
     background-color: rgb(255, 255, 255);
     color: #1a2236;
     border-color: #1a2236;
   }
 
-  .links-desk
-  {
+  .links-desk {
     background-image: url(image/Rectangle.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -706,8 +613,7 @@
     margin-top: -10px;
   }
 
-  .get_my_resume-desk
-  {
+  .get_my_resume-desk {
     background-color: #1a2236;
     border-color: transparent;
     position: relative;
@@ -715,43 +621,35 @@
     top: 50%;
   }
 
-  .links-desk ul
-  {
+  .links-desk ul {
     display: flex;
     position: relative;
     top: 10%;
-    /* justify-content: space-between; */
     margin-left: 990px;
     margin-right: 19px;
   }
 
-  .form
-  {
+  .form {
     display: none;
   }
 
-  .contact-form
-  {
+  .contact-form {
     display: none;
   }
 
-  .headline-conatact
-  {
+  .headline-conatact {
     display: none;
   }
 
-  .contact-hedline
-  {
+  .contact-hedline {
     display: none;
   }
 
-  .contact-para
-  {
+  .contact-para {
     display: none;
   }
 
-  .links
-  {
+  .links {
     display: none;
   }
 }

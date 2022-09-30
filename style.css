@@ -1236,4 +1236,8 @@
   .links-desk {
     display: none;
   }
+
+  .dot-img {
+    display: none;
+  }
 }

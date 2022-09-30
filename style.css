@@ -1003,7 +1003,7 @@
   }
 
   .get_cv
-  {
+   {
     width: 288px;
     height: 50px;
     color: white;
@@ -1019,14 +1019,14 @@
 
   .get_cv:hover,
   .get_cv:active
-  {
+   {
     color: #1a2236;
     border-color: transparent;
     background-color: rgb(39, 17, 80);
   }
 
   .main-about p
-  {
+   {
     font-size: 14px;
     font-family: 'Poppins', sans-serif;
     line-height: 21px;
@@ -1038,12 +1038,12 @@
   }
 
   .about_language h2
-  {
+   {
     margin-left: 10%;
   }
 
   h4
-  {
+   {
     color: white;
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
@@ -1051,7 +1051,7 @@
   }
 
   .about_language
-  {
+   {
     background-color: #1c528a;
     background-size: 500px 100%;
     width: 289px;
@@ -1062,7 +1062,7 @@
   }
 
   .about_language .effect_1
-  {
+   {
     height: 100px;
     position: relative;
     color: #547da7;
@@ -1073,7 +1073,7 @@
   }
 
   .about_framework
-  {
+   {
     background-color: #e2505c;
     margin-bottom: 30px;
     margin-left: 16px;
@@ -1084,7 +1084,7 @@
   }
 
   .about_framework .effect_2
-  {
+   {
     height: 100px;
     position: relative;
     color: #547da7;
@@ -1095,7 +1095,7 @@
   }
 
   .about_Skills
-  {
+   {
     background-color: #febf52;
     margin-bottom: 30px;
     margin-left: 16px;
@@ -1106,7 +1106,7 @@
   }
 
   .about_Skills .effect_3
-  {
+   {
     height: 100px;
     position: relative;
     color: #547da7;
@@ -1117,7 +1117,7 @@
   }
 
   .About-section ul
-  {
+   {
     color: #fff;
     position: inherit;
     height: 100px;
@@ -1126,21 +1126,21 @@
   }
 
   footer
-  {
+   {
     margin-right: 0;
     margin-top: 10px;
     width: 320px;
   }
 
   .contact-form
-  {
+   {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
   }
 
   .contact-form .geometry1
-  {
+   {
     width: 40%;
     height: 50%;
     margin-top: 10px;
@@ -1148,12 +1148,12 @@
   }
 
   .form ul
-  {
+   {
     list-style: none;
   }
 
   #mail
-  {
+   {
     background-image: url(image/Your_email.png);
     background-repeat: no-repeat;
     background-position-x: 10px;
@@ -1170,7 +1170,7 @@
   }
 
   #name
-  {
+   {
     background-image: url(image/Your_name.png);
     background-repeat: no-repeat;
     background-position-x: 10px;
@@ -1187,7 +1187,7 @@
   }
 
   #Message
-  {
+   {
     background-image: url(image/Enter_your_message_here....png);
     background-repeat: no-repeat;
     background-position-x: 10px;
@@ -1207,14 +1207,14 @@
   }
 
   .headline_contact
-  {
+   {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 
   .contact-hedline h2
-  {
+   {
     text-align: right;
     margin-left: -160px;
     margin-bottom: 20px;
@@ -1222,7 +1222,7 @@
   }
 
   .contact-para
-  {
+   {
     font-size: 14px;
     font-family: 'Poppins', sans-serif;
     text-align: left;
@@ -1234,7 +1234,7 @@
   }
 
   .form-button
-  {
+   {
     height: 50px;
     width: 288px;
     color: white;
@@ -1251,19 +1251,19 @@
 
   .form-button:hover,
   .form-button:active
-  {
+   {
     background-color: rgb(255, 255, 255);
     color: #1a2236;
     border-color: #1a2236;
   }
 
   .focusvisible
-  {
+   {
     margin-right: 40px;
   }
 
   .links
-  {
+   {
     background-image: url(image/Rectangle.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -1274,7 +1274,7 @@
   }
 
   .get_my_resume
-  {
+   {
     background-color: #1a2236;
     border-color: transparent;
     position: relative;
@@ -1283,7 +1283,7 @@
   }
 
   .links ul
-  {
+   {
     display: flex;
     position: relative;
     top: 15%;
@@ -1293,112 +1293,112 @@
   }
 
   .geomtry-desk
-  {
+   {
     display: none;
   }
 
   .Desktop-head
-  {
+   {
     display: none;
   }
 
   .imgdesk1
-  {
+   {
     display: none;
   }
 
   .imgdesk2
-  {
+   {
     display: none;
   }
 
   .imgdesk3
-  {
+   {
     display: none;
   }
 
   .imgdesk4
-  {
+   {
     display: none;
   }
 
   .worksection6
-  {
+   {
     display: none;
   }
 
   .imgdesk5
-  {
+   {
     display: none;
   }
 
   .imgdesk6
-  {
+   {
     display: none;
   }
 
   .worksection7
-  {
+   {
     display: none;
   }
 
   .About-section-desk
-  {
+   {
     display: none;
   }
 
   .main-about-desk
-  {
+   {
     display: none;
   }
 
   .about_container-desk
-  {
+   {
     display: none;
   }
 
   .about_language-desk
-  {
+   {
     display: none;
   }
 
   .about_framework-desk
-  {
+   {
     display: none;
   }
 
   .about_Skills-desk
-  {
+   {
     display: none;
   }
 
   .form-desk
-  {
+   {
     display: none;
   }
 
   .contact-form-desk
-  {
+   {
     display: none;
   }
 
   .headline-conatact-desk
-  {
+   {
     display: none;
   }
 
   .contact-hedline-desk
-  {
+   {
     display: none;
   }
 
   .contact-para-desk
-  {
+   {
     display: none;
   }
 
   .links-desk
-  {
+   {
     display: none;
   }
 }

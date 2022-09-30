@@ -521,7 +521,6 @@
   }
 
   #name {
-    display: flex;
     background-image: url(image/Your_name.png);
     background-repeat: no-repeat;
     background-position-x: 10px;

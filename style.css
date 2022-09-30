@@ -315,8 +315,8 @@
     border-color: transparent;
   }
  
-  .about-section-desk {
-    display: flex;
+  .About-section-desk {
+    display: flex; 
     width: 320px;
     float: left;
   }

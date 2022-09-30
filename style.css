@@ -304,7 +304,7 @@
   }
 
   .rectangle1
-  {
+   {
     background-color: #1a2236;
     height: 193px;
     width: 860px;
@@ -312,12 +312,12 @@
   }
 
   .rectangle
-  {
+   {
     display: none;
   }
 
   .btn
-  {
+   {
     background-color: #98dede;
     border-color: transparent;
     width: 87px;
@@ -326,7 +326,7 @@
   }
 
   .see_projectbtn
-  {
+   {
     justify-self: center;
     background-color: #1a2236;
     color: white;
@@ -344,27 +344,27 @@
   }
 
   .see_projectbtn span
-  {
+   {
     margin-right: 4%;
   }
 
   .see_projectbtn:hover,
   .see_projectbtn:active
-  {
+   {
     background-color: rgb(255, 255, 255);
     color: #1a2236;
     border-color: transparent;
   }
 
   .About-section-desk
-  {
+   {
     display: flex;
     width: 320px;
     float: left;
   }
 
   .about_container-desk
-  {
+   {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -372,7 +372,7 @@
   }
 
   .main-about-desk
-  {
+   {
     display: flex;
     flex-direction: column;
     margin-left: 460px;
@@ -381,7 +381,7 @@
   }
 
   .get_cv-desk
-  {
+   {
     width: 288px;
     height: 50px;
     color: white;
@@ -397,14 +397,14 @@
 
   .get_cv-desk:hover,
   .get_cv-desk:active
-  {
+   {
     color: #1a2236;
     border-color: transparent;
     background-color: rgb(39, 17, 80);
   }
 
   .main-about-desk p
-  {
+   {
     font-size: 14px;
     font-family: 'Poppins', sans-serif;
     line-height: 21px;
@@ -416,7 +416,7 @@
   }
 
   h4
-  {
+   {
     color: white;
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
@@ -424,7 +424,7 @@
   }
 
   .about_language-desk
-  {
+   {
     background-color: #1c528a;
     background-size: 500px 100%;
     width: 289px;
@@ -433,7 +433,7 @@
   }
 
   .about_language-desk .effect_1
-  {
+   {
     height: 100px;
     position: relative;
     color: #547da7;
@@ -444,7 +444,7 @@
   }
 
   .about_framework-desk
-  {
+   {
     background-color: #e2505c;
     background-size: 500px 100%;
     width: 289px;
@@ -453,7 +453,7 @@
   }
 
   .about_framework-desk .effect_2
-  {
+   {
     height: 100px;
     position: relative;
     color: #547da7;
@@ -464,7 +464,7 @@
   }
 
   .about_Skills-desk
-  {
+   {
     background-color: #febf52;
     margin-left: 160px;
     height: 400px;
@@ -472,7 +472,7 @@
   }
 
   .dotabout
-  {
+   {
     margin-left: 370px;
     margin-top: -1770px;
     height: 160px;
@@ -480,7 +480,7 @@
   }
 
   .about_Skills-desk .effect_3
-  {
+   {
     height: 100px;
     position: relative;
     color: #547da7;
@@ -491,7 +491,7 @@
   }
 
   .About-section-desk ul
-  {
+   {
     color: #fff;
     position: inherit;
     height: 100px;
@@ -500,44 +500,44 @@
   }
 
   .About-section
-  {
+   {
     display: none;
   }
 
   .main-about
-  {
+   {
     display: none;
   }
 
   .about_container
-  {
+   {
     display: none;
   }
 
   .about_language
-  {
+   {
     display: none;
   }
 
   .about_framework
-  {
+   {
     display: none;
   }
 
   .about_Skills
-  {
+   {
     display: none;
   }
 
   .contact-form-desk
-  {
+   {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
   }
 
   .contact-form-desk .geometry1
-  {
+   {
     width: 263px;
     height: 350px;
     margin-top: 1100px;
@@ -545,7 +545,7 @@
   }
 
   .contact-form-desk-2 .geometry1
-  {
+   {
     width: 263px;
     height: 350px;
     margin-left: 1080px;
@@ -553,7 +553,7 @@
   }
 
   .contact-hedline-desk
-  {
+   {
     font-family: 'Playfair Display', sans-serif;
     font-size: 110px;
     width: 548px;
@@ -565,12 +565,12 @@
   }
 
   .form-desk ul
-  {
+   {
     list-style: none;
   }
 
   #mail
-  {
+   {
     background-image: url(image/Your_email.png);
     background-repeat: no-repeat;
     background-position-x: 10px;
@@ -588,7 +588,7 @@
   }
 
   #name
-  {
+   {
     background-image: url(image/Your_name.png);
     background-repeat: no-repeat;
     background-position-x: 10px;
@@ -605,7 +605,7 @@
   }
 
   #Message
-  {
+   {
     background-image: url(image/Enter_your_message_here....png);
     background-repeat: no-repeat;
     background-position-x: 10px;
@@ -625,14 +625,14 @@
   }
 
   .headline_contact-desk
-  {
+   {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 
   .contact-hedline-desk h2
-  {
+   {
     text-align: right;
     margin-left: -160px;
     margin-bottom: 20px;
@@ -640,7 +640,7 @@
   }
 
   .contact-para-desk
-  {
+   {
     font-size: 14px;
     font-family: 'Poppins', sans-serif;
     text-align: left;
@@ -653,7 +653,7 @@
   }
 
   .form-button-desk
-  {
+   {
     height: 50px;
     width: 288px;
     color: white;
@@ -670,14 +670,14 @@
 
   .form-button-desk:hover,
   .form-button-desk:active
-  {
+   {
     background-color: rgb(255, 255, 255);
     color: #1a2236;
     border-color: #1a2236;
   }
 
   .links-desk
-  {
+   {
     background-image: url(image/Rectangle.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -688,7 +688,7 @@
   }
 
   .get_my_resume-desk
-  {
+   {
     background-color: #1a2236;
     border-color: transparent;
     position: relative;
@@ -697,7 +697,7 @@
   }
 
   .links-desk ul
-  {
+   {
     display: flex;
     position: relative;
     top: 10%;
@@ -706,32 +706,32 @@
   }
 
   .form
-  {
+   {
     display: none;
   }
 
   .contact-form
-  {
+   {
     display: none;
   }
 
   .headline-conatact
-  {
+   {
     display: none;
   }
 
   .contact-hedline
-  {
+   {
     display: none;
   }
 
   .contact-para
-  {
+   {
     display: none;
   }
 
   .links
-  {
+   {
     display: none;
   }
 }
@@ -739,32 +739,32 @@
 @media only screen and (max-width: 600px)
 {
   body
-  {
+   {
     background-color: white;
   }
 
   *
-  {
+   {
     margin: 0;
     padding: 0;
   }
 
   .navigation
-  {
+   {
     display: flex;
     flex-direction: column;
     width: 320px;
   }
 
   header.mobile_header
-  {
+   {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
   }
 
   .image_geometry_1
-  {
+   {
     margin-top: 2%;
     margin-right: 30%;
     background-image: url(image/image_geometry_1.jpg);
@@ -774,13 +774,13 @@
   }
 
   header.mobile_header nav
-  {
+   {
     margin-top: 10%;
     margin-right: 1%;
   }
 
   h1
-  {
+   {
     font-family: 'Playfair Display', sans-serif;
     font-size: 50px;
     align-self: start;
@@ -793,7 +793,7 @@
   }
 
   .main_pargraph
-  {
+   {
     font-family: Poppins, sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -806,7 +806,7 @@
   }
 
   .collaboration
-  {
+   {
     height: 81px;
     text-decoration: none;
     color: #fff;
@@ -823,14 +823,14 @@
 
   .collaboration:hover,
   .collaboration:active
-  {
+   {
     background-color: #fff;
     color: #1a2236;
     border-color: #1a2236;
   }
 
   .image_geometry_2
-  {
+   {
     background-image: url(image/image_geometry_2.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
@@ -839,20 +839,20 @@
   }
 
   h2
-  {
+   {
     font-family: 'Playfair Display', sans-serif;
     margin-left: 5%;
     font-size: 50px;
   }
 
   .Works-section
-  {
+   {
     display: grid;
     width: 320px;
   }
 
   .worksection1
-  {
+   {
     background-image: url(image/Rectangle21.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
@@ -862,7 +862,7 @@
   }
 
   .worksection2
-  {
+   {
     background-image: url(image/Rectangle22.png);
     background-repeat: no-repeat;
     background-size: 100%;
@@ -872,7 +872,7 @@
   }
 
   .worksection3
-  {
+   {
     background-image: url(image/Rectangle23.png);
     background-repeat: no-repeat;
     background-size: 100%;
@@ -882,7 +882,7 @@
   }
 
   .worksection4
-  {
+   {
     background-image: url(image/Rectangle24.png);
     background-repeat: no-repeat;
     background-size: 100%;
@@ -892,7 +892,7 @@
   }
 
   .worksection5
-  {
+   {
     background-image: url(image/Rectangle25.png);
     background-repeat: no-repeat;
     background-size: 100%;
@@ -902,7 +902,7 @@
   }
 
   .rectangle
-  {
+   {
     background-color: #1a2236;
     height: 156px;
     display: grid;
@@ -910,7 +910,7 @@
   }
 
   .rectangle1
-  {
+   {
     background-color: #1a2236;
     height: 156px;
     display: grid;
@@ -918,12 +918,12 @@
   }
 
   .rectangle6
-  {
+   {
     display: none;
   }
 
   h3
-  {
+   {
     color: #fff;
     font-family: 'Poppins', sans-serif;
     text-align: left;
@@ -932,7 +932,7 @@
   }
 
   .buttons
-  {
+   {
     display: flex;
     list-style: none;
     box-sizing: border-box;
@@ -940,7 +940,7 @@
   }
 
   .btn
-  {
+   {
     background-color: #98dede;
     border-color: transparent;
     width: 87px;
@@ -949,7 +949,7 @@
   }
 
   .see_projectbtn
-  {
+   {
     justify-self: center;
     background-color: #1a2236;
     color: white;
@@ -967,27 +967,27 @@
   }
 
   .see_projectbtn span
-  {
+   {
     margin-right: 4%;
   }
 
   .see_projectbtn:hover,
   .see_projectbtn:active
-  {
+   {
     background-color: rgb(255, 255, 255);
     color: #1a2236;
     border-color: transparent;
   }
 
   .About-section
-  {
+   {
     display: flex;
     flex-direction: column;
     width: 320px;
   }
 
   .about_container
-  {
+   {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -995,7 +995,7 @@
   }
 
   .main-about
-  {
+   {
     display: flex;
     flex-direction: column;
     justify-content: space-between;

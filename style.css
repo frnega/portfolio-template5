@@ -301,8 +301,7 @@
     height: 50px;
     border-color: white;
     margin-bottom: 10%;
-    margin-left: 60px;
-    
+    margin-left: 60px; 
   }
 
   .see_projectbtn span {
@@ -316,7 +315,7 @@
     border-color: transparent;
   }
  
-  .About-section-desk {
+  .about-section-desk {
     display: flex;
     width: 320px;
     float: left;

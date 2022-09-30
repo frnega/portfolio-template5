@@ -1,5 +1,219 @@
 @media only screen and (min-width: 760px) {
- .worksection6 {
+  body {
+    background-color: #fff;
+    overflow-x: hidden;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  .menu-button {
+    display: none;
+  }
+
+  .Desktop-head {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+  }
+
+  .Desktop-head a:link,
+  .Desktop-head a:visited {
+    text-decoration: none;
+    color: #1a2236;
+    transition: 0.1s;
+  }
+
+  .hover {
+    color: #1a2236;
+    border-bottom: 2px solid #1a2236;
+    transition: border 0.5s;
+  }
+
+  .Desktop-head a:hover,
+  .Desktop-head a:active {
+    border-bottom: 2px solid #1a2236;
+  }
+
+  .Desktop-head a::after {
+    display: none;
+    height: 2px;
+    background-color: #1a2236;
+    content: " ";
+    width: 50px;
+    margin: 0 auto;
+  }
+
+  .Desktop-head li {
+    margin-right: 5%;
+    margin-top: 38px;
+  }
+
+  .geomtry-desk {
+    margin-top: 4%;
+    float: right;
+    width: 702px;
+    height: 877px;
+    margin-bottom: 210px;
+    margin-right: 5px !important;
+  }
+
+  .dot-img {
+    width: 11%;
+    position: absolute;
+    top: 61vw;
+    left: 35.2vw;
+  }
+
+  h1 {
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 110px;
+    align-self: start;
+    line-height: 100%;
+    margin-left: 100px;
+    margin-top: 192px;
+    width: 484px;
+    height: 220px;
+    font-style: normal;
+    color: #1a2236;
+    font-weight: 400;
+  }
+
+  .main_pargraph {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    width: 484px;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.01em;
+    color: #1a2236;
+    margin-left: 100px;
+    margin-top: 60px;
+    height: 84px;
+  }
+
+  .collaboration {
+    width: 254px;
+    height: 70px;
+    text-decoration: none;
+    color: #fff;
+    font-family: Poppins, sans-serif;
+    background-color: #1a2236;
+    transition: solid 0s;
+    margin-left: 100px;
+    border-color: transparent;
+    display: flex;
+    margin-top: 59px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .collaboration:hover,
+  .collaboration:active {
+    background-color: #fff;
+    color: #1a2236;
+    border-color: #1a2236;
+  }
+
+  h2 {
+    font-family: 'Playfair Display', sans-serif;
+    margin-left: 145px;
+    font-size: 110px;
+    margin-top: 420px;
+    writing-mode: vertical-rl;
+    float: left;
+  }
+
+  h5 {
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 110px;
+    width: 295px;
+    height: 110px;
+  }
+
+  h3 {
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    margin-left: 60px;
+    width: 726px;
+    height: 48px;
+  }
+
+  .buttons {
+    display: flex;
+    list-style: none;
+    box-sizing: border-box;
+    margin-left: 60px;
+  }
+
+  .worksection1 {
+    background-image: url(image/Rectangle21.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 353px;
+    width: 860px;
+    margin-left: 480px;
+    margin-top: 402px;
+  }
+
+  .imagedeskall {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .imgdesk1 {
+    background-image: url(image/Rectangle24.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 260px;
+    width: 365px;
+    margin-left: 60px;
+    margin-top: 120px;
+  }
+
+  .imgdesk5 {
+    background-image: url(image/image-geometry_5.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 88px;
+    width: 88px;
+    margin-left: 60px;
+    margin-top: -10px;
+  }
+
+  .imgdesk3 {
+    background-image: url(image/image-geometry_2.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 350px;
+    width: 411px;
+    margin-top: -120px;
+    margin-left: 400px;
+  }
+
+  .rectangle6 {
+    background-color: #1a2236;
+    height: 210px;
+    width: 465px;
+    margin-left: 450px;
+    margin-top: 15px;
+  }
+
+  .imgdesk2 {
+    background-image: url(image/Rectangle27.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 465px;
+    width: 650px;
+    margin-left: 60px;
+    margin-top: -50px;
+  }
+
+  .worksection6 {
     background-image: url(image/Rectangle26.png);
     background-repeat: no-repeat;
     background-size: 100%;

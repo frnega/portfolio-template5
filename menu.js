@@ -1,7 +1,5 @@
-
 const lastWidth = document.querySelector('body').style.width;
 const lastHeight = document.querySelector('body').style.height;
-
 
 const closeMenu = function () {
   document.getElementsByClassName('menu')[0].classList.add('hidden');

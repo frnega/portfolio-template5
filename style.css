@@ -1324,8 +1324,8 @@
     margin-top: 20px;
     text-decoration: none;
   }
-
-  .menu-list a:link, 
+  
+  .menu-list a:link,
   .menu-list a:visited {
     text-decoration: none;
     color: #1a2236;

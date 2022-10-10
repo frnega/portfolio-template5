@@ -5,8 +5,8 @@ const closeMenu = function () {
   document.getElementsByClassName('menu')[0].classList.add('hidden');
   document.querySelector('body').style.width = lastWidth;
   document.getElementsByClassName('headline')[0].classList.remove('hidden'); 
-  document.getElementsByClassName('Works-section')[0].classList.remove('hidden');
-  document.getElementsByClassName('About-section')[0].classList.remove('hidden'); 
+  document.getElementsByClassName('Works')[0].classList.remove('hidden');
+  document.getElementsByClassName('About')[0].classList.remove('hidden'); 
   document.getElementsByClassName('form')[0].classList.remove('hidden'); 
 };
 
@@ -14,8 +14,8 @@ const openMenu = function () {
   document.getElementsByClassName('menu')[0].classList.remove('hidden');
   document.querySelector('body').style.width = '10vmax'; 
   document.getElementsByClassName('headline')[0].classList.add('hidden'); 
-  document.getElementsByClassName('Works-section')[0].classList.add('hidden'); 
-  document.getElementsByClassName('About-section')[0].classList.add('hidden');
+  document.getElementsByClassName('Works')[0].classList.add('hidden'); 
+  document.getElementsByClassName('About')[0].classList.add('hidden');
   document.getElementsByClassName('form')[0].classList.add('hidden');
 };
 
@@ -37,4 +37,3 @@ document
 document
   .getElementsByClassName('contact')[0]
   .addEventListener('click', closeMenu);
-document.addEventListener('keydown', xButton);

@@ -1,7 +1,7 @@
 @media only screen and (min-width: 768px) {
   body {
     background-color: #fff;
-    overflow-x: hidden; 
+    overflow-x: hidden;
   }
 
   * {
@@ -1328,7 +1328,7 @@
     width: 100%;
     height: 80%;
   }
-  
+
   .cancel {
     align-self: flex-end;
     margin-right: 1rem;

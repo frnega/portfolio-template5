@@ -1317,7 +1317,7 @@
   .hidden {
     display: none;
   }
-  
+
   .menu-container {
     display: flex;
     flex-direction: column;

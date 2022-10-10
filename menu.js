@@ -32,7 +32,7 @@ document
   .getElementsByClassName('portfolio')[0]
   .addEventListener('click', closeMenu);
 document
-  .getElementsByClassName('About')[0]
+  .getElementsByClassName('about')[0]
   .addEventListener('click', closeMenu);
 document
   .getElementsByClassName('contact')[0]

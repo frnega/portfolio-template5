@@ -1262,14 +1262,14 @@
     width: 100%;
     justify-content: center;
   }
-  
+
   .menu-mask {
     position: relative;
     top: 47%;
     width: 100%;
     left: -2px;
   }
-  
+
   .menu-dot-2 {
     position: relative;
     top: 19vmax;
@@ -1277,7 +1277,7 @@
     width: 50px;
     align-self: flex-start;
   }
-  
+
   .cancel-button {
     position: relative;
     left: 133px;
@@ -1285,19 +1285,19 @@
     width: 20px;
     align-self: flex-end;
   }
-  
+
   .menu-dot-1 {
     position: relative;
     left: 66px;
     top: 65px;
     width: 4rem;
   }
-  
+
   .geomtry-mn {
     width: 11rem;
     align-self: flex-start;
-   }
-  
+  }
+
   .menu-list {
     list-style: none;
     font-family: 'Poppins', sans-serif;

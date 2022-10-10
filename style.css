@@ -1325,12 +1325,6 @@
     text-decoration: none;
   }
   
-  .menu-list a:link,
-  .menu-list a:visited {
-    text-decoration: none;
-    color: #1a2236;
-  }
-
   .hidden {
     display: none;
   }
@@ -1353,4 +1347,10 @@
     bottom: 0;
     right: 9rem;
   }
+
+  .menu-list a:link,
+  .menu-list a:visited {
+  text-decoration: none;
+  color: #1a2236;
+ }
 }

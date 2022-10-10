@@ -1350,7 +1350,7 @@
 
   .menu-list a:link,
   .menu-list a:visited {
-  text-decoration: none;
-  color: #1a2236;
+    text-decoration: none;
+    color: #1a2236;
  }
 }

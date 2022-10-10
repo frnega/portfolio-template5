@@ -1,7 +1,7 @@
 @media only screen and (min-width: 768px) {
   body {
     background-color: #fff;
-     overflow-x: hidden; 
+    overflow-x: hidden; 
   }
 
   * {
@@ -654,11 +654,11 @@
   .hidden {
     display: none;
   }
-  
+
   .menu-container {
     display: none;
   }
-  
+
   .cancel {
     display: none;
   }
@@ -1309,11 +1309,11 @@
     right: 15px;
     font-size: 30px;
   }
-  
+
   .menu-list li {
     margin-top: 20px;
   }
-  
+
   .hidden {
     display: none;
   }

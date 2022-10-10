@@ -887,7 +887,7 @@
     width: 320px;
   }
 
-  .About h2{
+  .About h2 {
     font-family: 'Playfair Display', sans-serif;
     margin-left: 5%;
     font-size: 50px;
@@ -1325,7 +1325,8 @@
     text-decoration: none;
   }
 
-  .menu-list a:link, .menu-list a:visited {
+  .menu-list a:link, 
+  .menu-list a:visited {
     text-decoration: none;
     color: #1a2236;
   }

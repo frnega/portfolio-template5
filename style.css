@@ -1324,7 +1324,7 @@
     margin-top: 20px;
     text-decoration: none;
   }
-  
+
   .hidden {
     display: none;
   }
@@ -1352,5 +1352,5 @@
   .menu-list a:visited {
     text-decoration: none;
     color: #1a2236;
- }
+  }
 }

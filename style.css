@@ -56,7 +56,7 @@
     float: right;
     width: 702px;
     height: 877px;
-    margin-bottom: 210px;
+    margin-bottom: 110px;
     margin-right: 5px !important;
   }
 
@@ -651,16 +651,97 @@
     display: none;
   }
 
+  .menu {
+    z-index: 10;
+    display: flex;
+    background-color: #fff;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .menu-mask {
+    position: relative;
+    top: 47%;
+    width: 100%;
+    left: -2px;
+  }
+
+  .menu-dot-2 {
+    position: relative;
+    top: 158px;
+    left: 154px;
+    width: 140px;
+    align-self: flex-start;
+  }
+
+  .cancel-button {
+    position: relative;
+    left: 133px;
+    top: -184px;
+    width: 20px;
+    align-self: flex-end;
+  }
+
+  .menu-dot-1 {
+    position: relative;
+    left: 154px;
+    top: 40px;
+    width: 140px;
+  }
+
+  .geomtry-mn {
+    width: 22rem;
+    align-self: flex-start;
+    margin-top: -20px;
+  }
+
+  .menu-list {
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 108px;
+    right: 15px;
+    font-size: 30px;
+  }
+
+  .menu-list li {
+    margin-top: 20px;
+    text-decoration: none;
+  }
+
   .hidden {
     display: none;
   }
 
   .menu-container {
-    display: none;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+    justify-self: center;
+    position: relative;
+    width: 100%;
+    height: 3500px;
+    margin-top: 0px;
   }
 
   .cancel {
-    display: none;
+    align-self: flex-end;
+    margin-right: 1rem;
+    position: relative;
+    bottom: 0;
+    right: 9rem;
+  }
+
+  .menu-list a:link,
+  .menu-list a:visited {
+    text-decoration: none;
+    color: #1a2236;
   }
 }
 
@@ -1268,19 +1349,21 @@
     display: flex;
     background-color: #fff;
     position: absolute;
-    height: 568px;
-    width: 320px;
+    height: 100%;
+    width: 100%;
     justify-content: center;
   }
 
-  .menu-mask {
+  .menu-mask
+  {
     position: relative;
     top: 47%;
-    width: 320px;
+    width: 100%;
     left: -2px;
   }
 
-  .menu-dot-2 {
+  .menu-dot-2
+  {
     position: relative;
     top: 158px;
     left: 54px;
@@ -1296,14 +1379,16 @@
     align-self: flex-end;
   }
 
-  .menu-dot-1 {
+  .menu-dot-1
+  {
     position: relative;
     left: 54px;
     top: 40px;
     width: 40px;
   }
 
-  .geomtry-mn {
+  .geomtry-mn
+  {
     width: 111px;
     align-self: flex-start;
   }
@@ -1336,7 +1421,7 @@
     align-items: center;
     justify-self: center;
     position: relative;
-    width: 320px;
+    width: 100%;
     height: 80%;
   }
 

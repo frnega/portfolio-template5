@@ -11,7 +11,7 @@ const closeMenu = function () {
 
 const openMenu = function () {
   document.getElementsByClassName('menu')[0].classList.remove('hidden');
-  document.querySelector('body').style.width = '10vmax';
+  document.querySelector('body').style.width = '20vmax';
   document.getElementsByClassName('headline')[0].classList.add('hidden');
   document.getElementsByClassName('Works')[0].classList.add('hidden');
   document.getElementsByClassName('About')[0].classList.add('hidden');

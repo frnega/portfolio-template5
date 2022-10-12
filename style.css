@@ -727,7 +727,7 @@
     position: relative;
     width: 100%;
     height: 3500px;
-    margin-top: 0px;
+    margin-top: 0;
   }
 
   .cancel {
@@ -1354,16 +1354,14 @@
     justify-content: center;
   }
 
-  .menu-mask
-  {
+  .menu-mask {
     position: relative;
     top: 47%;
     width: 100%;
     left: -2px;
   }
 
-  .menu-dot-2
-  {
+  .menu-dot-2 {
     position: relative;
     top: 158px;
     left: 54px;
@@ -1379,16 +1377,14 @@
     align-self: flex-end;
   }
 
-  .menu-dot-1
-  {
+  .menu-dot-1 {
     position: relative;
     left: 54px;
     top: 40px;
     width: 40px;
   }
 
-  .geomtry-mn
-  {
+  .geomtry-mn {
     width: 111px;
     align-self: flex-start;
   }

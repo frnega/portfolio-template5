@@ -1,10 +1,10 @@
 @media only screen and (min-width: 320px) and (max-width: 768px) {
-  .popupimgmac {
+.popupimgmac {
     width: 292px;
     height: 147px;
   }
 
-  .vector-2 {
+.vector-2 {
     z-index: 15;
     position: relative;
     top: 119px;
@@ -737,52 +737,52 @@ h5 {
  }
 
 .popup-2 {
-  background-color: #1a2236;
-  opacity: 0.98;
-  width: 99vmax;
-  z-index: 30;
-  height: 138vmax;
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+   background-color: #1a2236;
+   opacity: 0.98;
+   width: 99vmax;
+   z-index: 30;
+   height: 138vmax;
+   position: absolute;
+   display: flex;
+   justify-content: center;
+   align-items: center;
  }
 
 .popup-3 {
-  background-color: #1a2236;
-  opacity: 0.98;
-  width: 73vmax;
-  z-index: 30;
-  height: 147vmax;
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+   background-color: #1a2236;
+   opacity: 0.98;
+   width: 73vmax;
+   z-index: 30;
+   height: 147vmax;
+   position: absolute;
+   display: flex;
+   justify-content: center;
+   align-items: center;
  }
 
 .popup-4 {
-  background-color: #1a2236;
-  opacity: 0.98;
-  width: 99vmax;
-  z-index: 30;
-  height: 138vmax;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  left: 0;
+   background-color: #1a2236;
+   opacity: 0.98;
+   width: 99vmax;
+   z-index: 30;
+   height: 138vmax;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   left: 0;
  }
 
 .popup-5 {
-  background-color: #1a2236;
-  opacity: 0.98;
-  width: 99vmax;
-  z-index: 30;
-  height: 138vmax;
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  left: 0;
+   background-color: #1a2236;
+   opacity: 0.98;
+   width: 99vmax;
+   z-index: 30;
+   height: 138vmax;
+   position: absolute;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   left: 0;
  }
 
 .popup-6 {

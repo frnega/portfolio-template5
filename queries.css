@@ -1,13 +1,10 @@
-@media only screen and (min-width: 320px) and (max-width: 768px)
-{
-  .popupimgmac
-  {
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+.popupimgmac {
     width: 292px;
     height: 147px;
   }
 
-  .vector-2
-  {
+.vector-2 {
     z-index: 15;
     position: relative;
     top: 119px;
@@ -15,17 +12,15 @@
     left: 125px;
   }
 
-  @  keyframes example
-  {
-    from {
-      width: 72px;
+@keyframes example {
+  from {
+    width: 72px;
     position: static;
     z-index: initial;
     border: none;
   }
 
-  to
-  {
+  to {
     position: absolute;
     left: 120px;
     z-index: 1;
@@ -40,8 +35,7 @@
   }
 }
 
-.choosenImage
-{
+.choosenImage {
   position: absolute;
   left: 120px;
   z-index: 1;
@@ -53,14 +47,13 @@
   width: 188px;
   animation-name: example;
   animation-duration: 0.25s;
-}
+ }
 }
 
 @media only screen and (max-width: 768px)
 {
   html,
-  body
-  {
+  body {
     width: 100%;
     height: 100%;
     margin: 0;
@@ -73,8 +66,7 @@
   .dropup_2.mobile,
   .dropup_4.mobile,
   .dropup_5.mobile,
-  .dropup_6.mobile
-  {
+  .dropup_6.mobile {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -84,34 +76,29 @@
 @media only screen and (min-width: 768px)
 {
   header.mobile,
-  .geometry.mobile
-  {
+  .geometry.mobile {
     display: none;
   }
 
-  h3
-  {
+  h3 {
     font-style: normal;
     font-size: 25px;
     margin-left: 55px;
   }
 
-  .About-myself h3
-  {
+  .About-myself h3 {
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
     margin-left: -313px;
   }
 
-  .headline_2 p.blockquote
-  {
+  .headline_2 p.blockquote {
     margin-left: 27rem;
     margin-right: 27rem;
   }
 
   html,
-  body
-  {
+  body {
     overflow-x: hidden;
     width: 100%;
     margin: 0;
@@ -127,14 +114,12 @@
     box-shadow: 1px 1px 20px 5px;
   }
 
-  .second-buttons
-  {
+  .second-buttons {
     flex-direction: row;
     order: 4;
   }
 
-  .Desktop-head
-  {
+.Desktop-head {
     animation-name: head;
     animation-duration: 4s;
     font-family: 'Poppins', sans-serif;
@@ -142,18 +127,18 @@
     font-weight: normal;
   }
 
-  @  keyframes head{
-    
-  0% {
+@keyframes head{
+
+0% {
     opacity: 0;
   }
 
-  50% {
-    opacity: 0.5;
+50% {
+   opacity: 0.5;
   }
 
-  100% {
-    opacity: 1;
+100% {
+   opacity: 1;
   }
 }
 

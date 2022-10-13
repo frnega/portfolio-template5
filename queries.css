@@ -786,34 +786,34 @@ h5 {
  }
 
 .popup-6 {
-  background-color: #1a2236;
-  opacity: 0.98;
-  width: 99vmax;
-  z-index: 30;
-  height: 138vmax;
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  left: 0;
+   background-color: #1a2236;
+   opacity: 0.98;
+   width: 99vmax;
+   z-index: 30;
+   height: 138vmax;
+   position: absolute;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   left: 0;
  }
 
 .hidden {
-  display: none;
+   display: none;
  }
 
 .main-container {
-  display: flex;
-  justify-content: center;
+    display: flex;
+    justify-content: center;
  }
 
 .mobile {
-  display: none;
+    display: none;
  }
 
 #third-image {
-  width: 100%;
-  height: 33vw;
+    width: 100%;
+    height: 33vw;
  }
 }
 

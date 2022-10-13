@@ -1,3 +1,4 @@
+/* eslint-disable func-names */
 const lastWidth = document.querySelector('body').style.width;
 const lastHeight = document.querySelector('body').style.height;
 
@@ -348,71 +349,72 @@ for (let i = 0; i < objValues.length; i += 1) {
   });
 }
 
-function ValidateEmail(){
-const email = document.getElementById('mail');
-const form = document.getElementById('form');
-const errorElement = document.getElementById('error');
-const userName = document.getElementById('name');
-const message = document.getElementById('Message');
+// eslint-disable-next-line no-unused-vars
+function ValidateEmail() {
+  const email = document.getElementById('mail');
+  const form = document.getElementById('form');
+  const errorElement = document.getElementById('error');
+  const userName = document.getElementById('name');
+  const message = document.getElementById('Message');
 
-const preserveData = function (userName, message, email) {
-  let formId = {};
-  if (localStorage.getItem('formId')) {
-    formId = JSON.parse(localStorage.getItem('formId'));
+  const preserveData = function (userName, message, email) {
+    let formId = {};
+    if (localStorage.getItem('formId')) {
+      formId = JSON.parse(localStorage.getItem('formId'));
+    }
+    formId.userNameId = userName.value;
+    formId.emailId = email.value;
+    formId.messageId = message.value;
+    localStorage.setItem('formId', JSON.stringify(formId));
+  };
+
+  const errorPresent = function (e) {
+    if (email.value !== email.value.toLowerCase()) {
+      e.preventDefault();
+      errorElement.innerText = "Please enter the email with lower case letter's";
+    } else {
+      preserveData(userName, message, email);
+    }
+  };
+
+  window.addEventListener('scroll', () => {
+    const headlineRect = document.querySelector('.headline').getBoundingClientRect();
+    const portfolio = document.querySelector('.Works').getBoundingClientRect();
+    const About = document.querySelector('.About-myself').getBoundingClientRect();
+    const contact = document.querySelector('footer').getBoundingClientRect();
+
+    if (headlineRect.y + 500 >= 0) {
+      document.querySelector('#head-1').classList.add('hover');
+      document.querySelector('#head-2').classList.remove('hover');
+      document.querySelector('#head-3').classList.remove('hover');
+      document.querySelector('#head-4').classList.remove('hover');
+    } else if (portfolio.y + 900 >= 0) {
+      document.querySelector('#head-1').classList.remove('hover');
+      document.querySelector('#head-2').classList.add('hover');
+      document.querySelector('#head-3').classList.remove('hover');
+      document.querySelector('#head-4').classList.remove('hover');
+    } else if (About.y + 500 >= 0) {
+      document.querySelector('#head-1').classList.remove('hover');
+      document.querySelector('#head-2').classList.remove('hover');
+      document.querySelector('#head-3').classList.add('hover');
+      document.querySelector('#head-4').classList.remove('hover');
+    } else if (contact.y >= 0) {
+      document.querySelector('#head-1').classList.remove('hover');
+      document.querySelector('#head-2').classList.remove('hover');
+      document.querySelector('#head-3').classList.remove('hover');
+      document.querySelector('#head-4').classList.add('hover');
+    }
+  });
+
+  form.addEventListener('submit', errorPresent);
+  const formId = JSON.parse(localStorage.getItem('formId'));
+  if (!document.getElementById('mail').value && (localStorage.length > 0)) {
+    document.getElementById('mail').value = formId.emailId;
   }
-  formId.userNameId = userName.value;
-  formId.emailId = email.value;
-  formId.messageId = message.value;
-  localStorage.setItem('formId', JSON.stringify(formId));
-};
-
-const errorPresent = function (e) {
-  if (email.value !== email.value.toLowerCase()) {
-    e.preventDefault();
-    errorElement.innerText = "Please enter the email with lower case letter's";
-  } else {
-    preserveData(userName, message, email);
+  if (!document.getElementById('name').value && (localStorage.length > 0)) {
+    document.getElementById('name').value = formId.userNameId;
   }
-};
-
-window.addEventListener('scroll', () => {
-  const headlineRect = document.querySelector('.headline').getBoundingClientRect();
-  const portfolio = document.querySelector('.Works').getBoundingClientRect();
-  const About = document.querySelector('.About-myself').getBoundingClientRect();
-  const contact = document.querySelector('footer').getBoundingClientRect();
-
-  if (headlineRect.y + 500 >= 0) {
-    document.querySelector('#head-1').classList.add('hover');
-    document.querySelector('#head-2').classList.remove('hover');
-    document.querySelector('#head-3').classList.remove('hover');
-    document.querySelector('#head-4').classList.remove('hover');
-  } else if (portfolio.y + 900 >= 0) {
-    document.querySelector('#head-1').classList.remove('hover');
-    document.querySelector('#head-2').classList.add('hover');
-    document.querySelector('#head-3').classList.remove('hover');
-    document.querySelector('#head-4').classList.remove('hover');
-  } else if (About.y + 500 >= 0) {
-    document.querySelector('#head-1').classList.remove('hover');
-    document.querySelector('#head-2').classList.remove('hover');
-    document.querySelector('#head-3').classList.add('hover');
-    document.querySelector('#head-4').classList.remove('hover');
-  } else if (contact.y >= 0) {
-    document.querySelector('#head-1').classList.remove('hover');
-    document.querySelector('#head-2').classList.remove('hover');
-    document.querySelector('#head-3').classList.remove('hover');
-    document.querySelector('#head-4').classList.add('hover');
+  if (!document.getElementById('Message').value && (localStorage.length > 0)) {
+    document.getElementByfId('Message').value = formId.messageId;
   }
-});
-
-form.addEventListener('submit', errorPresent);
-const formId = JSON.parse(localStorage.getItem('formId'));
-if (!document.getElementById('mail').value && (localStorage.length > 0)) {
-  document.getElementById('mail').value = formId.emailId;
-}
-if (!document.getElementById('name').value && (localStorage.length > 0)) {
-  document.getElementById('name').value = formId.userNameId;
-}
-if (!document.getElementById('Message').value && (localStorage.length > 0)) {
-  document.getElementByfId('Message').value = formId.messageId;
-}
 }

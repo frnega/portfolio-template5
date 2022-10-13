@@ -1,1437 +1,886 @@
-@media only screen and (min-width: 768px) {
-  body {
-    background-color: #fff;
-    overflow-x: hidden;
-  }
-
-  * {
-    margin: 0;
-    padding: 0;
-  }
-
-  .menu-button {
-    display: none;
-  }
-
-  .Desktop-head {
-    display: flex;
-    list-style: none;
-    justify-content: center;
-  }
-
-  .Desktop-head a:link,
-  .Desktop-head a:visited {
-    text-decoration: none;
-    color: #1a2236;
-    transition: 0.1s;
-  }
-
-  .hover {
-    color: #1a2236;
-    border-bottom: 2px solid #1a2236;
-    transition: border 0.5s;
-  }
-
-  .Desktop-head a:hover,
-  .Desktop-head a:active {
-    border-bottom: 2px solid #1a2236;
-  }
-
-  .Desktop-head a::after {
-    display: none;
-    height: 2px;
-    background-color: #1a2236;
-    content: " ";
-    width: 50px;
-    margin: 0 auto;
-  }
-
-  .Desktop-head li {
-    margin-right: 5%;
-    margin-top: 38px;
-  }
-
-  .geomtry-desk {
-    margin-top: 4%;
-    float: right;
-    width: 702px;
-    height: 877px;
-    margin-bottom: 110px;
-    margin-right: 5px !important;
-  }
-
-  .dot-img {
-    width: 11%;
-    position: absolute;
-    top: 61vw;
-    left: 35.2vw;
-  }
-
-  h1 {
-    font-family: 'Playfair Display', sans-serif;
-    font-size: 110px;
-    align-self: start;
-    line-height: 100%;
-    margin-left: 100px;
-    margin-top: 192px;
-    width: 484px;
-    height: 220px;
-    font-style: normal;
-    color: #1a2236;
-    font-weight: 400;
-  }
-
-  .main_pargraph {
-    font-family: Poppins, sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    width: 484px;
-    font-size: 14px;
-    line-height: 21px;
-    letter-spacing: -0.01em;
-    color: #1a2236;
-    margin-left: 100px;
-    margin-top: 60px;
-    height: 84px;
-  }
-
-  .collaboration {
-    width: 254px;
-    height: 70px;
-    text-decoration: none;
-    color: #fff;
-    font-family: Poppins, sans-serif;
-    background-color: #1a2236;
-    transition: solid 2s;
-    margin-left: 100px;
-    border-color: transparent;
-    display: flex;
-    margin-top: 59px;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .collaboration:hover,
-  .collaboration:active {
-    background-color: #fff;
-    color: #1a2236;
-    border-color: #1a2236;
-  }
-
-  h2 {
-    font-family: 'Playfair Display', sans-serif;
-    margin-left: 145px;
-    font-size: 110px;
-    margin-top: 20px;
-    writing-mode: vertical-rl;
-    float: left;
-  }
-
-  h5 {
-    font-family: 'Playfair Display', sans-serif;
-    font-size: 110px;
-    width: 295px;
-    height: 110px;
-  }
-
-  h3 {
-    color: #fff;
-    font-family: 'Poppins', sans-serif;
-    font-size: 20px;
-    margin-left: 60px;
-    width: 726px;
-    height: 48px;
-  }
-
-  .buttons {
-    display: flex;
-    list-style: none;
-    box-sizing: border-box;
-    margin-left: 60px;
-  }
-
-  .worksection1 {
-    background-image: url(image/Rectangle21.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    height: 353px;
-    width: 860px;
-    margin-left: 480px;
-    margin-top: 402px;
-  }
-
-  .imagedeskall {
-    display: flex;
-    flex-direction: row;
-  }
-
-  .imgdesk1 {
-    background-image: url(image/Rectangle24.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    height: 260px;
-    width: 365px;
-    margin-left: 60px;
-    margin-top: 120px;
-  }
-
-  .imgdesk5 {
-    background-image: url(image/image-geometry_5.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    height: 88px;
-    width: 88px;
-    margin-left: 60px;
-    margin-top: -10px;
-  }
-
-  .imgdesk3 {
-    background-image: url(image/image-geometry_2.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    height: 350px;
-    width: 411px;
-    margin-top: -120px;
-    margin-left: 400px;
-  }
-
-  .rectangle6 {
-    background-color: #1a2236;
-    height: 210px;
-    width: 465px;
-    margin-left: 450px;
-    margin-top: 15px;
-  }
-
-  .imgdesk2 {
-    background-image: url(image/Rectangle27.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    height: 465px;
-    width: 650px;
-    margin-left: 60px;
-    margin-top: -50px;
-  }
-
-  .worksection6 {
-    background-image: url(image/Rectangle26.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    height: 270px;
-    width: 465px;
-    margin-left: 875px;
-    margin-top: -590px;
-  }
-
-  .worksection7 {
-    background-image: url(image/Rectangle47.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    height: 270px;
-    width: 465px;
-    margin-left: 710px;
-    margin-top: -90px;
-  }
-
-  .imgdesk6 {
-    background-image: url(image/image-geometry_4.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    height: 87px;
-    width: 87px;
-    margin-left: 630px;
-    margin-top: -90px;
-  }
-
-  .imgdesk4 {
-    background-image: url(image/image-geometry_3.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    height: 275px;
-    width: 630px;
-    margin-left: 710px;
-  }
-
-  .worksection2 {
-    display: none;
-  }
-
-  .worksection3 {
-    display: none;
-  }
-
-  .worksection4 {
-    display: none;
-  }
-
-  .worksection5 {
-    display: none;
-  }
-
-  .rectangle1 {
-    background-color: #1a2236;
-    height: 193px;
-    width: 860px;
-    margin-left: 480px;
-  }
-
-  .rectangle {
-    display: none;
-  }
-
-  .btn {
-    background-color: #98dede;
-    border-color: transparent;
-    width: 87px;
-    height: 30px;
-    margin-right: 10px;
-  }
-
-  .see_projectbtn {
-    justify-self: center;
-    background-color: #1a2236;
-    color: white;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Poppins', sans-serif;
-    font-size: 16px;
-    width: 210px;
-    height: 50px;
-    border-color: white;
-    margin-bottom: 10%;
-    margin-left: 60px;
-  }
-
-  .see_projectbtn span {
-    margin-right: 4%;
-  }
-
-  .see_projectbtn:hover,
-  .see_projectbtn:active {
-    background-color: rgb(255, 255, 255);
-    color: #1a2236;
-    border-color: transparent;
-  }
-
-  .About-section-desk {
-    display: flex;
-    width: 320px;
-    float: left;
-  }
-
-  .about_container-desk {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 320px;
-  }
-
-  .main-about-desk {
-    display: flex;
-    flex-direction: column;
-    margin-left: 460px;
-    margin-top: 190px;
-    margin-bottom: 400px;
-  }
-
-  .get_cv-desk {
-    width: 288px;
-    height: 50px;
-    color: white;
-    font-family: 'Poppins', sans-serif;
-    background-color: #1a2236;
-    transition: solid 1s;
-    border-color: transparent;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: 16px;
-  }
-
-  .get_cv-desk:hover,
-  .get_cv-desk:active {
-    color: #1a2236;
-    border-color: transparent;
-    background-color: rgb(39, 17, 80);
-  }
-
-  .main-about-desk p {
-    font-size: 14px;
-    font-family: 'Poppins', sans-serif;
-    line-height: 21px;
-    text-align: left;
-    margin-left: 8px;
-    margin-bottom: 42px;
-    width: 446px;
-    height: 86px;
-  }
-
-  h4 {
-    color: white;
-    font-family: 'Poppins', sans-serif;
-    font-size: 20px;
-    top: 22px;
-  }
-
-  .about_language-desk {
-    background-color: #1c528a;
-    background-size: 500px 100%;
-    width: 289px;
-    margin-left: 160px;
-    margin-top: 150px;
-  }
-
-  .about_language-desk .effect_1 {
-    height: 100px;
-    position: relative;
-    color: #547da7;
-    margin: 5px;
-    bottom: 30px;
-    top: 6px;
-    left: 187px;
-  }
-
-  .about_framework-desk {
-    background-color: #e2505c;
-    background-size: 500px 100%;
-    width: 289px;
-    margin-left: 740px;
-    margin-top: -415px;
-  }
-
-  .about_framework-desk .effect_2 {
-    height: 100px;
-    position: relative;
-    color: #547da7;
-    margin: 5px;
-    bottom: 30px;
-    top: 6px;
-    left: 187px;
-  }
-
-  .about_Skills-desk {
-    background-color: #febf52;
-    margin-left: 160px;
-    height: 400px;
-    width: 289px;
-  }
-
-  .dotabout {
-    margin-left: 370px;
-    margin-top: -1770px;
-    height: 160px;
-    width: 160px;
-  }
-
-  .about_Skills-desk .effect_3 {
-    height: 100px;
-    position: relative;
-    color: #547da7;
-    margin: 4.5px;
-    bottom: 30px;
-    top: 6px;
-    left: 187px;
-  }
-
-  .About-section-desk ul {
-    color: #fff;
-    position: inherit;
-    height: 100px;
-    font-family: 'Poppins', sans-serif;
-    margin: 100px;
-  }
-
-  .About {
-    display: none;
-  }
-
-  .main-about {
-    display: none;
-  }
-
-  .about_container {
-    display: none;
-  }
-
-  .about_language {
-    display: none;
-  }
-
-  .about_framework {
-    display: none;
-  }
-
-  .about_Skills {
-    display: none;
-  }
-
-  .contact-form-desk {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-
-  .contact-form-desk .geometry1 {
-    width: 263px;
-    height: 350px;
-    margin-top: 1100px;
-    margin-left: -310px;
-  }
-
-  .contact-form-desk-2 .geometry1 {
-    width: 263px;
-    height: 350px;
-    margin-left: 1080px;
-    margin-top: -100px;
-  }
-
-  .contact-hedline-desk {
-    font-family: 'Playfair Display', sans-serif;
-    font-size: 110px;
-    width: 548px;
-    height: 63px;
-    margin-left: 446px;
-    margin-top: -210px;
-    margin-bottom: 80px;
-    display: flex;
-  }
-
-  .form-desk ul {
-    list-style: none;
-  }
-
-  #mail {
-    background-image: url(image/Your_email.png);
-    background-repeat: no-repeat;
-    background-position-x: 10px;
-    background-position-y: 10px;
-    border-radius: 5px;
-    height: 50px;
-    width: 254px;
-    padding-left: 14px;
-    padding-top: 14px;
-    margin-left: 746px;
-    margin-top: -65px;
-    border-width: 0.1px;
-    border-color: #bbbabd;
-    display: flex;
-  }
-
-  #name {
-    background-image: url(image/Your_name.png);
-    background-repeat: no-repeat;
-    background-position-x: 10px;
-    background-position-y: 10px;
-    border-radius: 5px;
-    border-width: 0.1px;
-    height: 50px;
-    width: 254px;
-    padding-left: 14px;
-    padding-top: 14px;
-    margin-left: 446px;
-    margin-top: 20px;
-    border-color: #bbbabd;
-  }
-
-  #Message {
-    background-image: url(image/Enter_your_message_here....png);
-    background-repeat: no-repeat;
-    background-position-x: 10px;
-    background-position-y: 10px;
-    border-radius: 4px;
-    height: 140px;
-    width: 560px;
-    border-width: 0.1px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 446px;
-    padding-left: 11px;
-    padding-top: 24px;
-    border-color: #e2e1e4;
-    justify-self: center;
-    transition: solid 0.5s;
-  }
-
-  .headline_contact-desk {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .contact-hedline-desk h6 {
-    text-align: right;
-    margin-left: -160px;
-    margin-bottom: 20px;
-    margin-top: 40px;
-  }
-
-  .contact-para-desk {
-    font-size: 14px;
-    font-family: 'Poppins', sans-serif;
-    text-align: left;
-    margin-bottom: 30px;
-    margin-left: 446px;
-    margin-right: 14px;
-    margin-top: 0%;
-    width: 548px;
-    height: 63px;
-  }
-
-  .form-button-desk {
-    height: 50px;
-    width: 288px;
-    color: white;
-    font-family: 'Poppins', sans-serif;
-    background-color: #1a2236;
-    transition: solid 0s;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 24px;
-    border-color: transparent;
-    margin-bottom: 20px;
-    margin-left: 576px;
-  }
-
-  .form-button-desk:hover,
-  .form-button-desk:active {
-    background-color: rgb(255, 255, 255);
-    color: #1a2236;
-    border-color: #1a2236;
-  }
-
-  .links-desk {
-    background-image: url(image/Rectangle.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 150px;
-    width: 1440px;
-    margin-left: 0;
-    margin-top: -10px;
-  }
-
-  .get_my_resume-desk {
-    background-color: #1a2236;
-    border-color: transparent;
-    position: relative;
-    left: 55px;
-    top: 50%;
-  }
-
-  .links-desk ul {
-    display: flex;
-    position: relative;
-    top: 10%;
-    margin-left: 990px;
-    margin-right: 19px;
-  }
-
-  .form {
-    display: none;
-  }
-
-  .contact-form {
-    display: none;
-  }
-
-  .headline-conatact {
-    display: none;
-  }
-
-  .contact-hedline {
-    display: none;
-  }
-
-  .contact-para {
-    display: none;
-  }
-
-  .links {
-    display: none;
-  }
-
-  .menu {
-    z-index: 10;
-    display: flex;
-    background-color: #fff;
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    justify-content: center;
-  }
-
-  .menu-mask {
-    position: relative;
-    top: 47%;
-    width: 100%;
-    left: -2px;
-  }
-
-  .menu-dot-2 {
-    position: relative;
-    top: 158px;
-    left: 154px;
-    width: 140px;
-    align-self: flex-start;
-  }
-
-  .cancel-button {
-    position: relative;
-    left: 133px;
-    top: -184px;
-    width: 20px;
-    align-self: flex-end;
-  }
-
-  .menu-dot-1 {
-    position: relative;
-    left: 154px;
-    top: 40px;
-    width: 140px;
-  }
-
-  .geomtry-mn {
-    width: 22rem;
-    align-self: flex-start;
-    margin-top: -20px;
-  }
-
-  .menu-list {
-    list-style: none;
-    font-family: 'Poppins', sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
-    top: 108px;
-    right: 15px;
-    font-size: 30px;
-  }
-
-  .menu-list li {
-    margin-top: 20px;
-    text-decoration: none;
-  }
-
-  .hidden {
-    display: none;
-  }
-
-  .menu-container {
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-    align-items: center;
-    justify-self: center;
-    position: relative;
-    width: 100%;
-    height: 3500px;
-    margin-top: 0;
-  }
-
-  .cancel {
-    align-self: flex-end;
-    margin-right: 1rem;
-    position: relative;
-    bottom: 0;
-    right: 9rem;
-  }
-
-  .menu-list a:link,
-  .menu-list a:visited {
-    text-decoration: none;
-    color: #1a2236;
-  }
+header.mobile {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-@media only screen and (max-width: 768px) {
-  body {
-    background-color: white;
-  }
-
-  * {
-    margin: 0;
-    padding: 0;
-  }
-
-  .navigation {
-    display: flex;
-    flex-direction: column;
-    width: 320px;
-  }
-
-  header.mobile_header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-
-  .image_geometry_1 {
-    margin-top: 2%;
-    margin-right: 30%;
-    background-image: url(image/image_geometry_1.jpg);
-    background-repeat: no-repeat;
-    width: 200px;
-    height: 74px;
-  }
-
-  header.mobile_header nav {
-    margin-top: 10%;
-    margin-right: 1%;
-  }
-
-  h1 {
-    font-family: 'Playfair Display', sans-serif;
-    font-size: 50px;
-    align-self: start;
-    line-height: 100%;
-    margin: 30px;
-    width: 320px;
-    font-style: normal;
-    color: #1a2236;
-    font-weight: normal;
-  }
-
-  .main_pargraph {
-    font-family: Poppins, sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    width: 288px;
-    font-size: 14px;
-    line-height: 21px;
-    letter-spacing: -0.01em;
-    color: #1a2236;
-    margin: 30px;
-  }
-
-  .collaboration {
-    height: 81px;
-    text-decoration: none;
-    color: #fff;
-    font-family: Poppins, sans-serif;
-    background-color: #1a2236;
-    transition: solid 0s;
-    margin: 20px;
-    border-color: transparent;
-    display: flex;
-    width: 288px;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .collaboration:hover,
-  .collaboration:active {
-    background-color: #fff;
-    color: #1a2236;
-    border-color: #1a2236;
-  }
-
-  .image_geometry_2 {
-    background-image: url(image/image_geometry_2.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    height: 260px;
-    width: 320px;
-  }
-
-  h2 {
-    font-family: 'Playfair Display', sans-serif;
-    margin-left: 5%;
-    font-size: 50px;
-    margin-top: -80px;
-    margin-bottom: 20px;
-  }
-
-  .Works-section {
-    display: grid;
-    width: 320px;
-  }
-
-  .worksection1 {
-    background-image: url(image/Rectangle21.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    height: 186px;
-    display: grid;
-    width: 320px;
-  }
-
-  .worksection2 {
-    background-image: url(image/Rectangle22.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    height: 186px;
-    display: grid;
-    width: 320px;
-  }
-
-  .worksection3 {
-    background-image: url(image/Rectangle23.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    height: 186px;
-    display: grid;
-    width: 320px;
-  }
-
-  .worksection4 {
-    background-image: url(image/Rectangle24.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    height: 186px;
-    display: grid;
-    width: 320px;
-  }
-
-  .worksection5 {
-    background-image: url(image/Rectangle25.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    height: 186px;
-    display: grid;
-    width: 320px;
-  }
-
-  .rectangle {
-    background-color: #1a2236;
-    height: 156px;
-    display: grid;
-    width: 320px;
-  }
-
-  .rectangle1 {
-    background-color: #1a2236;
-    height: 156px;
-    display: grid;
-    width: 320px;
-  }
-
-  .rectangle6 {
-    display: none;
-  }
-
-  h3 {
-    color: #fff;
-    font-family: 'Poppins', sans-serif;
-    text-align: left;
-    font-size: 20px;
-    margin-left: 20px;
-  }
-
-  .buttons {
-    display: flex;
-    list-style: none;
-    box-sizing: border-box;
-    margin-left: 20px;
-  }
-
-  .btn {
-    background-color: #98dede;
-    border-color: transparent;
-    width: 87px;
-    height: 30px;
-    margin-right: 10px;
-  }
-
-  .see_projectbtn {
-    justify-self: center;
-    background-color: #1a2236;
-    color: white;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Poppins', sans-serif;
-    font-size: 16px;
-    width: 210px;
-    height: 50px;
-    border-color: white;
-    margin-bottom: 10%;
-    margin-left: 20px;
-  }
-
-  .see_projectbtn span {
-    margin-right: 4%;
-  }
-
-  .see_projectbtn:hover,
-  .see_projectbtn:active {
-    background-color: rgb(255, 255, 255);
-    color: #1a2236;
-    border-color: transparent;
-  }
-
-  .About {
-    display: flex;
-    flex-direction: column;
-    width: 320px;
-  }
-
-  .About h2 {
-    font-family: 'Playfair Display', sans-serif;
-    margin-left: 5%;
-    font-size: 50px;
-    margin-top: -40px;
-    margin-bottom: 20px;
-  }
-
-  .about_container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 320px;
-  }
-
-  .main-about {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 288px;
-  }
-
-  .get_cv {
-    width: 288px;
-    height: 50px;
-    color: white;
-    font-family: 'Poppins', sans-serif;
-    background-color: #1a2236;
-    transition: solid 1s;
-    margin-left: 16px;
-    border-color: transparent;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .get_cv:hover,
-  .get_cv:active {
-    color: #1a2236;
-    border-color: transparent;
-    background-color: rgb(39, 17, 80);
-  }
-
-  .main-about p {
-    font-size: 14px;
-    font-family: 'Poppins', sans-serif;
-    line-height: 21px;
-    text-align: left;
-    margin-bottom: 30px;
-    margin-left: 16px;
-    margin-right: 30px;
-    margin-top: 0%;
-  }
-
-  .about_language h2 {
-    margin-left: 10%;
-  }
-
-  h4 {
-    color: white;
-    font-family: 'Poppins', sans-serif;
-    font-size: 20px;
-    top: 22px;
-  }
-
-  .about_language {
-    background-color: #1c528a;
-    background-size: 500px 100%;
-    width: 289px;
-    margin-bottom: 30px;
-    margin-left: 22px;
-    margin-right: 30px;
-    margin-top: 3%;
-  }
-
-  .about_language .effect_1 {
-    height: 100px;
-    position: relative;
-    color: #547da7;
-    margin: 5px;
-    bottom: 30px;
-    top: 6px;
-    left: 187px;
-  }
-
-  .about_framework {
-    background-color: #e2505c;
-    margin-bottom: 30px;
-    margin-left: 16px;
-    margin-right: 30px;
-    margin-top: 3%;
-    background-size: 500px 100%;
-    width: 289px;
-  }
-
-  .about_framework .effect_2 {
-    height: 100px;
-    position: relative;
-    color: #547da7;
-    margin: 5px;
-    bottom: 30px;
-    top: 6px;
-    left: 187px;
-  }
-
-  .about_Skills {
-    background-color: #febf52;
-    margin-bottom: 30px;
-    margin-left: 16px;
-    margin-right: 30px;
-    margin-top: 3%;
-    height: 400px;
-    width: 289px;
-  }
-
-  .about_Skills .effect_3 {
-    height: 100px;
-    position: relative;
-    color: #547da7;
-    margin: 4.5px;
-    bottom: 30px;
-    top: 6px;
-    left: 187px;
-  }
-
-  .About ul {
-    color: #fff;
-    position: inherit;
-    height: 100px;
-    font-family: 'Poppins', sans-serif;
-    margin: 100px;
-  }
-
-  footer {
-    margin-right: 0;
-    margin-top: 10px;
-    width: 320px;
-  }
-
-  .contact-form {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-
-  .contact-form .geometry1 {
-    width: 40%;
-    height: 50%;
-    margin-top: 10px;
-    margin-bottom: 20px;
-  }
-
-  .form ul {
-    list-style: none;
-  }
-
-  #mail {
-    background-image: url(image/Your_email.png);
-    background-repeat: no-repeat;
-    background-position-x: 10px;
-    background-position-y: 10px;
-    border-radius: 5px;
-    height: 50px;
-    width: 288px;
-    padding-left: 14px;
-    padding-top: 14px;
-    margin-left: 20px;
-    margin-top: 20px;
-    border-width: 0.1px;
-    border-color: #bbbabd;
-  }
-
-  #name {
-    background-image: url(image/Your_name.png);
-    background-repeat: no-repeat;
-    background-position-x: 10px;
-    background-position-y: 10px;
-    border-radius: 5px;
-    border-width: 0.1px;
-    height: 50px;
-    width: 288px;
-    padding-left: 14px;
-    padding-top: 14px;
-    margin-left: 20px;
-    margin-top: 20px;
-    border-color: #bbbabd;
-  }
-
-  #Message {
-    background-image: url(image/Enter_your_message_here....png);
-    background-repeat: no-repeat;
-    background-position-x: 10px;
-    background-position-y: 10px;
-    border-radius: 4px;
-    height: 80px;
-    width: 288px;
-    border-width: 0.1px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 20px;
-    padding-left: 11px;
-    padding-top: 24px;
-    border-color: #e2e1e4;
-    justify-self: center;
-    transition: solid 0.5s;
-  }
-
-  .headline_contact {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .contact-hedline {
-    text-align: right;
-    margin-left: -180px;
-    margin-bottom: 20px;
-    margin-top: 40px;
-  }
-
-  .contact-para {
-    font-size: 14px;
-    font-family: 'Poppins', sans-serif;
-    text-align: left;
-    margin-bottom: 30px;
-    margin-left: 18px;
-    margin-right: 14px;
-    margin-top: 0%;
-    width: 320px;
-  }
-
-  .form-button {
-    height: 50px;
-    width: 288px;
-    color: white;
-    font-family: 'Poppins', sans-serif;
-    background-color: #1a2236;
-    transition: solid 0s;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 24px;
-    border-color: transparent;
-    margin-bottom: 20px;
-    margin-left: 20px;
-  }
-
-  .form-button:hover,
-  .form-button:active {
-    background-color: rgb(255, 255, 255);
-    color: #1a2236;
-    border-color: #1a2236;
-  }
-
-  .focusvisible {
-    margin-right: 40px;
-  }
-
-  .links {
-    background-image: url(image/Rectangle.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 150px;
-    width: 320px;
-    margin-left: 0;
-    margin-top: 40px;
-  }
-
-  .get_my_resume {
-    background-color: #1a2236;
-    border-color: transparent;
-    position: relative;
-    left: 25px;
-    top: 15%;
-  }
-
-  .links ul {
-    display: flex;
-    position: relative;
-    top: 15%;
-    justify-content: space-between;
-    margin-left: 19px;
-    margin-right: 19px;
-  }
-
-  .geomtry-desk {
-    display: none;
-  }
-
-  .Desktop-head {
-    display: none;
-  }
-
-  .imgdesk1 {
-    display: none;
-  }
-
-  .imgdesk2 {
-    display: none;
-  }
-
-  .imgdesk3 {
-    display: none;
-  }
-
-  .imgdesk4 {
-    display: none;
-  }
-
-  .worksection6 {
-    display: none;
-  }
-
-  .imgdesk5 {
-    display: none;
-  }
-
-  .imgdesk6 {
-    display: none;
-  }
-
-  .worksection7 {
-    display: none;
-  }
-
-  .About-section-desk {
-    display: none;
-  }
-
-  .main-about-desk {
-    display: none;
-  }
-
-  .about_container-desk {
-    display: none;
-  }
-
-  .about_language-desk {
-    display: none;
-  }
-
-  .about_framework-desk {
-    display: none;
-  }
-
-  .about_Skills-desk {
-    display: none;
-  }
-
-  .form-desk {
-    display: none;
-  }
-
-  .contact-form-desk {
-    display: none;
-  }
-
-  .headline-conatact-desk {
-    display: none;
-  }
-
-  .contact-hedline-desk {
-    display: none;
-  }
-
-  .contact-para-desk {
-    display: none;
-  }
-
-  .links-desk {
-    display: none;
-  }
-
-  .dot-img {
-    display: none;
-  }
-
-  .menu {
-    z-index: 10;
-    display: flex;
-    background-color: #fff;
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    justify-content: center;
-  }
-
-  .menu-mask {
-    position: relative;
-    top: 47%;
-    width: 100%;
-    left: -2px;
-  }
-
-  .menu-dot-2 {
-    position: relative;
-    top: 158px;
-    left: 54px;
-    width: 40px;
-    align-self: flex-start;
-  }
-
-  .cancel-button {
-    position: relative;
-    left: 133px;
-    top: -54px;
-    width: 20px;
-    align-self: flex-end;
-  }
-
-  .menu-dot-1 {
-    position: relative;
-    left: 54px;
-    top: 40px;
-    width: 40px;
-  }
-
-  .geomtry-mn {
-    width: 111px;
-    align-self: flex-start;
-  }
-
-  .menu-list {
-    list-style: none;
-    font-family: 'Poppins', sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
-    top: 108px;
-    right: 15px;
-    font-size: 30px;
-  }
-
-  .menu-list li {
-    margin-top: 20px;
-    text-decoration: none;
-  }
-
-  .hidden {
-    display: none;
-  }
-
-  .menu-container {
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-    align-items: center;
-    justify-self: center;
-    position: relative;
-    width: 100%;
-    height: 80%;
-  }
-
-  .cancel {
-    align-self: flex-end;
-    margin-right: 1rem;
-    position: relative;
-    bottom: 0;
-    right: 9rem;
-  }
-
-  .menu-list a:link,
-  .menu-list a:visited {
-    text-decoration: none;
-    color: #1a2236;
-  }
+.geometry1 {
+  width: 50%;
+  height: 50%;
+}
+
+header.mobile nav {
+  margin-top: 10%;
+  margin-right: 7%;
+}
+
+.headline {
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-family: 'Playfair Display', sans-serif;
+  font-size: 60px;
+  align-self: start;
+  line-height: 100%;
+  margin: 50px;
+  font-style: normal;
+  font-weight: normal;
+}
+
+h2 {
+  font-family: 'Playfair Display', sans-serif;
+  margin-left: 5%;
+  font-size: 50px;
+}
+
+h3 {
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  font-size: 20px;
+  margin-left: -6px;
+}
+
+.headline p {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -0.01em;
+  color: #1a2236;
+  margin: 50px;
+}
+
+.second-buttons a {
+  text-decoration: none;
+}
+
+.second-buttons button {
+  margin-top: 10px;
+  margin-right: 53px;
+  width: 260px;
+  padding: 7px;
+  display: flex;
+  justify-content: space-evenly;
+  font-family: 'Poppins', sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  color: #1a2236;
+}
+
+.first-buttons button {
+  background-color: white;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  padding: 4px;
+}
+
+#RubyonRails {
+  width: 71px;
+}
+
+.start-collaboration {
+  width: 80%;
+  height: 81px;
+  text-decoration: none;
+  color: white;
+  font-family: Poppins, sans-serif;
+  background-color: #1a2236;
+  transition: solid 0s;
+  margin: auto;
+  border-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.second-buttons button:hover,
+.second-buttons button:active {
+  background-color: #1a2236;
+  color: #fff;
+}
+
+.start-collaboration:hover,
+.start-collaboration:active {
+  background-color: rgb(255, 255, 255);
+  color: #1a2236;
+  border-color: #1a2236;
+}
+
+.Works {
+  margin-top: 20px;
+  z-index: 2;
+}
+
+.container {
+  display: -ms-grid;
+  display: grid;
+  margin-top: 20px;
+  width: 100vw;
+}
+
+.first {
+  display: flex;
+  flex-direction: column;
+  justify-items: start;
+  margin-left: 0;
+  margin-right: 0;
+  justify-content: left;
+  background-image: url(image/Rectangle.jpg);
+  background-position: bottom;
+  background-size: 100% 50%;
+  background-repeat: no-repeat;
+}
+
+.geometry {
+  width: 100%;
+}
+
+.back {
+  width: 100%;
+}
+
+.buttons {
+  display: flex;
+  list-style: none;
+  box-sizing: border-box;
+  justify-content: space-between;
+}
+
+.btn {
+  background-color: #98dede;
+  border-color: transparent;
+  width: auto;
+}
+
+.Ruby {
+  flex: 50%;
+}
+
+.HTMLCSS {
+  flex: 50%;
+}
+
+.Js {
+  flex: 50%;
+}
+
+.btn-See {
+  justify-self: center;
+  background-color: #1a2236;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+  width: 210px;
+  height: 50px;
+  border-color: white;
+  margin-bottom: 10%;
+  margin-left: -31px;
+}
+
+.btn-See span {
+  margin-right: 4%;
+}
+
+.btn-See:hover,
+.btn-See:active {
+  background-color: rgb(255, 255, 255);
+  color: #1a2236;
+  border-color: transparent;
+}
+
+.second {
+  display: flex;
+  flex-direction: column;
+  justify-items: start;
+  margin-left: 0;
+  margin-right: 0;
+  justify-content: left;
+  background-image: url(image/Rectangle.jpg);
+  background-position: bottom;
+  background-size: 100% 60%;
+  background-repeat: no-repeat;
+}
+
+.third {
+  display: flex;
+  flex-direction: column;
+  justify-items: start;
+  margin-left: 0;
+  margin-right: 0;
+  justify-content: left;
+  background-image: url(image/Rectangle.jpg);
+  background-position: bottom;
+  background-size: 100% 60%;
+  background-repeat: no-repeat;
+}
+
+.fourth {
+  display: flex;
+  flex-direction: column;
+  justify-items: start;
+  margin-left: 0;
+  margin-right: 0;
+  justify-content: left;
+  background-image: url(image/Rectangle.jpg);
+  background-position: bottom;
+  background-size: 100% 60%;
+  background-repeat: no-repeat;
+}
+
+.fifth {
+  display: flex;
+  flex-direction: column;
+  justify-items: start;
+  margin-left: 0;
+  margin-right: 0;
+  justify-content: left;
+  background-image: url(image/Rectangle.jpg);
+  background-position: bottom;
+  background-size: 100% 60%;
+  background-repeat: no-repeat;
+}
+
+.six {
+  display: flex;
+  flex-direction: column;
+  justify-items: start;
+  margin-left: 0;
+  margin-right: 0;
+  justify-content: left;
+  background-image: url(image/Rectangle.jpg);
+  background-position: bottom;
+  background-size: 100% 60%;
+  background-repeat: no-repeat;
+}
+
+.About-myself {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-me-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.first-about {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.get-my-cv {
+  width: 80%;
+  height: 81px;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  background-color: #1a2236;
+  transition: solid 1s;
+  margin: auto;
+  border-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.get-my-cv:hover,
+.get-my-cv:active {
+  background-color: rgb(255, 118, 118);
+  color: #1a2236;
+  border-color: transparent;
+}
+
+.first-about p {
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  text-align: left;
+  margin-bottom: 30px;
+  margin-left: 40px;
+  margin-right: 30px;
+  margin-top: 0%;
+}
+
+.first-about h2 {
+  margin-left: 10%;
+}
+
+h4 {
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  position: relative;
+  top: 22px;
+}
+
+.second-about {
+  background-image:
+    url(image/first.jpg),
+    linear-gradient(rgba(4, 71, 255, 0.514), rgba(95, 151, 224, 0.425));
+  background-size: 500px 100%;
+  margin: 3%;
+  width: 300px;
+}
+
+.second-about .effect_ {
+  height: 100px;
+  position: relative;
+  color: #547da7;
+  margin: 5px;
+  bottom: 30px;
+  top: 6px;
+  left: 193px;
+}
+
+.third-about {
+  background-image:
+    url(image/second.jpg),
+    linear-gradient(rgba(179, 165, 174, 0.267), rgba(218, 66, 155, 0.425));
+  margin: 3%;
+  background-size: 500px 100%;
+  height: 400px;
+  width: 300px;
+}
+
+.fourth-about {
+  background-image:
+    url(image/third.png),
+    linear-gradient(rgba(255, 170, 13, 0.541), rgba(255, 251, 0, 0.425));
+  margin: 3%;
+  height: 400px;
+  width: 300px;
+}
+
+.About-myself ul {
+  color: #fff;
+  position: relative;
+  height: 200px;
+  font-family: 'Poppins', sans-serif;
+  left: 93px;
+  top: 63px;
+}
+
+.effect.a {
+  position: relative;
+  left: 204px;
+  top: 62px;
+}
+
+.effect.b {
+  position: relative;
+  left: 196px;
+  bottom: -53px;
+}
+
+.get_started {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.get_started .geometry1 {
+  width: 40%;
+  height: 50%;
+  margin-top: 20px;
+}
+
+.form ul {
+  list-style: none;
+}
+
+#mail {
+  background-image: url(image/Your_email.png);
+  background-repeat: no-repeat;
+  background-position-x: 10px;
+  background-position-y: 10px;
+  border-radius: 5px;
+  height: 50px;
+  width: 285px;
+  padding-left: 14px;
+  padding-top: 14px;
+  margin-top: 10px;
+  border-width: 0.1px;
+  border-color: #bbbabd;
+}
+
+#name {
+  background-image: url(image/Your_name.png);
+  background-repeat: no-repeat;
+  background-position-x: 10px;
+  background-position-y: 10px;
+  border-radius: 5px;
+  border-width: 0.1px;
+  height: 50px;
+  width: 285px;
+  padding-left: 14px;
+  padding-top: 14px;
+  border-color: #bbbabd;
+}
+
+#Message {
+  background-image: url(image/Enter_your_message_here....png);
+  background-repeat: no-repeat;
+  background-position-x: 10px;
+  background-position-y: 10px;
+  border-radius: 4px;
+  height: 80px;
+  width: 285px;
+  border-width: 0.1px;
+  margin-top: 10px;
+  padding-left: 11px;
+  padding-top: 24px;
+  border-color: #e2e1e4;
+  justify-self: center;
+  transition: solid 0.5s;
+}
+
+.headline_2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.headline_2 h2 {
+  text-align: left;
+  margin-left: -3.5rem;
+  margin-bottom: 12px;
+}
+
+.headline_2 p {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: -0.01em;
+  color: #1a2236;
+  margin-left: 40px;
+  text-align: left;
+  margin-right: 50px;
+  margin-bottom: 10px;
+}
+
+.form-button {
+  height: 50px;
+  width: 285px;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  background-color: #1a2236;
+  transition: solid 0s;
+  margin: auto;
+  border-color: transparent;
+  margin-bottom: 20px;
+  margin-left: 40px;
+}
+
+.form-button:hover,
+.form-button:active {
+  background-color: rgb(255, 255, 255);
+  color: #1a2236;
+  border-color: #1a2236;
+}
+
+.focusvisible {
+  margin-right: 40px;
+}
+
+.links {
+  background-image: url(image/Rectangle.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 100%;
+  margin: 0;
+}
+
+.get_my_resume {
+  background-color: #1a2236;
+  border-color: transparent;
+  position: relative;
+  left: 25px;
+  top: 20%;
+}
+
+.links ul {
+  display: flex;
+  position: relative;
+  top: 20%;
+  justify-content: space-between;
+  right: 3%;
+}
+
+.links a {
+  margin: 1%;
+  margin-right: 3%;
+  width: 12%;
+}
+
+footer {
+  margin-right: 0;
+}
+
+.menu-list a:link,
+.menu-list a:visited {
+  text-decoration: none;
+  color: #1a2236;
+}
+
+.Desktop {
+  display: none;
+}
+
+.mobile {
+  display: block;
+}
+
+.Desktop-head {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+
+.Desktop-head a:link,
+.Desktop-head a:visited {
+  text-decoration: none;
+  color: #1a2236;
+  transition: 0.1s;
+}
+
+.hover {
+  color: #1a2236;
+  border-bottom: 2px solid #1a2236;
+  transition: border 0.5s;
+}
+
+.Desktop-head a:hover,
+.Desktop-head a:active {
+  border-bottom: 2px solid #1a2236;
+}
+
+.Desktop-head a::after {
+  display: none;
+  height: 2px;
+  background-color: #1a2236;
+  content: " ";
+  width: 50px;
+  margin: 0 auto;
+}
+
+.Desktop-head li {
+  margin-right: 5%;
+}
+
+.geom {
+  margin-top: 4%;
+  float: right;
+  width: 53vw;
+}
+
+.dot {
+  width: 11%;
+  position: absolute;
+  top: 59vw;
+  left: 35.2vw;
+}
+
+.dot1 {
+  flex: 1;
+  height: 30%;
+  margin-right: 1%;
+  margin-top: 0.5%;
+}
+
+.links li {
+  list-style: none;
+}
+
+.buttons li {
+  margin-left: -141px;
+  margin-right: -135px;
+}
+
+.menu {
+  z-index: 10;
+  display: flex;
+  background-color: #fff;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+}
+
+.menu-mask {
+  position: relative;
+  top: 47%;
+  width: 100%;
+  left: -2px;
+}
+
+.second-menu-dot {
+  position: relative;
+  top: 19vmax;
+  left: 6rem;
+  width: 50px;
+  align-self: flex-start;
+}
+
+.cancel-button {
+  position: relative;
+  left: 133px;
+  top: -84px;
+  width: 20px;
+  align-self: flex-end;
+}
+
+.first-menu-dot {
+  position: relative;
+  left: 66px;
+  top: 65px;
+  width: 4rem;
+}
+
+.geomtry-1 {
+  width: 11rem;
+  align-self: flex-start;
+}
+
+.menu-list {
+  list-style: none;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  top: 108px;
+  right: 15px;
+  font-size: 30px;
+}
+
+.menu-list li {
+  margin-top: 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+.menu-container {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  align-items: center;
+  justify-self: center;
+  position: relative;
+  width: 100%;
+  height: 80%;
+}
+
+.cancel {
+  align-self: flex-end;
+  margin-right: 1rem;
+  position: relative;
+  bottom: 0;
+  right: 9rem;
+}
+
+.popup-1 {
+  background-color: white;
+  z-index: 10;
+  position: absolute;
+  top: -2px;
+}
+
+.first-buttons {
+  display: flex;
+  font-size: 14px;
+  list-style: none;
+  font-family: 'Poppins', sans-serif;
+  padding-top: 0;
+  padding-right: 45px;
+  margin-bottom: -6px;
+}
+
+.img-list img {
+  width: 72px;
+  margin-left: -2px;
+}
+
+.popup-3 .img-list img {
+  height: 64px;
+}
+
+.first-buttons li {
+  margin-right: 10px;
+}
+
+.popup-conatiner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cancel-1 {
+  align-self: flex-end;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+h5 {
+  position: relative;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bolder;
+  font-size: 20px;
+  color: #1a2236;
+  top: 1px;
+  left: -22px;
+}
+
+.img-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  padding-right: 28px;
+  margin-top: 0;
+  margin-right: 0;
+}
+
+.popup-4 .img-list img,
+.popup-5 .img-list img,
+.popup-6 .img-list img,
+.popup-3 .img-list img,
+.popup-2 .img-list img {
+  height: 142px;
+}
+
+.vector-1 {
+  z-index: 15;
+  position: relative;
+  top: 119px;
+  width: 12px;
+  right: 127px;
+  cursor: pointer;
+}
+
+.vector-2 {
+  z-index: 15;
+  position: relative;
+  top: 100px;
+  width: 12px;
+  left: 131px;
+  cursor: pointer;
+}
+
+.popup-1 p {
+  margin: 30px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.second-buttons {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.popup-2 {
+  background-color: white;
+  z-index: 10;
+  position: absolute;
+  top: -2px;
+}
+
+.popup-2 p {
+  margin: 30px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.cancel-2 {
+  align-self: flex-end;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.popup-3 {
+  background-color: white;
+  z-index: 10;
+  position: absolute;
+  top: -2px;
+}
+
+.popup-3 p {
+  margin: 30px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.cancel-3 {
+  align-self: flex-end;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.popup-4 {
+  background-color: white;
+  z-index: 10;
+  position: absolute;
+  top: -2px;
+}
+
+.popup-4 p {
+  margin: 30px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.cancel-4 {
+  align-self: flex-end;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.popup-5 {
+  background-color: white;
+  z-index: 10;
+  position: absolute;
+  top: -2px;
+}
+
+.popup-5 p {
+  margin: 30px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.cancel-5 {
+  align-self: flex-end;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.popup-6 {
+  background-color: white;
+  z-index: 10;
+  position: absolute;
+  top: -2px;
+}
+
+.popup-6 p {
+  margin: 30px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.cancel-6 {
+  align-self: flex-end;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+#error {
+  color: red;
+  font-family: 'Poppins', sans-serif;
+  font-size: 10px;
 }

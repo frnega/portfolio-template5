@@ -27,7 +27,6 @@ const callsOpen = function () {
   document.querySelector('body').style.backgroundColor = '#1a2236';
   document.querySelector('.container_2').style.justifyItems = 'center';
   window.window.location.href = '#';
-  clearInterval(myInterval);
 };
 
 const closeMenu = function () {

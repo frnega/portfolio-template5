@@ -655,6 +655,8 @@
     font-size: 50px;
     position: static;
     order: -1;
+    margin-left: -480px;
+    margin-bottom: 10px;
   }
 
   .cancel-3,
@@ -719,8 +721,9 @@
   .first-buttons {
     width: 44rem;
     margin-bottom: 27px;
-    justify-content: center;
+    justify-content: left;
     order: -1;
+    margin-left: -370px;
   }
 
   .first-buttons button {
@@ -733,6 +736,7 @@
     text-align: center;
     margin: 45px;
     order: 3;
+    width: 768px;
   }
 
   .popup-2 {

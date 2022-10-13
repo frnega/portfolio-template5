@@ -51,6 +51,7 @@
 }
 
 @media only screen and (max-width: 768px) {
+
   html,
   body {
     width: 100%;
@@ -73,6 +74,7 @@
 }
 
 @media only screen and (min-width: 768px) {
+
   header.mobile,
   .geometry.mobile {
     display: none;
@@ -150,7 +152,6 @@
   }
 
   .headline p {
-    margin-left: 8vmax;
     margin-right: 8vmax;
   }
 

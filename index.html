@@ -622,29 +622,28 @@
         </p>
         <img src="image/Desktop-img/image-geometry_7.png" alt = "gemot" class="geomet Desktop">
 
-          <form action="https://formspree.io/f/xlevdkob" method="post" id="form">
-            <ul class="form_">
+        <form action="https://formspree.io/f/xlevdkob" method="post" id="form">
+          <ul class="form_">
 
-             <li class="name_">
-              <label for="name" class="Desktop">Your name</label>
-               <input type="text"  id="name" name="user_name" class="focusvisible" maxlength="30" required>
-             </li>
-             <li class="email_">
-              <label for="mail" class="Desktop">Your email</label>
-               <input type="email" id="mail" name="user_email" class="focusvisible" required >
-             </li>
-             <li class="empty Desktop"></li>
-             <li class="message_">
-              <label for="Message" class="Desktop">Message</label>
+           <li class="name_">
+            <label for="name" class="Desktop">Your name</label>
+             <input type="text"  id="name" name="user_name" class="focusvisible" maxlength="30" required>
+           </li>
+           <li class="email_">
+            <label for="mail" class="Desktop">Your email</label>
+             <input type="email" id="mail" name="user_email" class="focusvisible" required >
+           </li>
+           <li class="empty Desktop"></li>
+           <li class="message_">
+            <label for="Message" class="Desktop">Message</label>
 
-               <textarea type="text" id="Message" name="user_message" class="focusvisible" maxlength="500" required></textarea>
-             </li>
+             <textarea type="text" id="Message" name="user_message" class="focusvisible" maxlength="500" required></textarea>
+           </li>
 
-            </ul>
-            <p id="error"></p>
-            <button class="form-button" type="submit">Start collaboration</button>
-           </form>
-
+          </ul>
+          <p id="error"></p>
+          <button class="form-button" type="submit" onclick="ValidateEmail()">Start collaboration</button>
+         </form>
 
       </div>
       <div class="links" id="links">

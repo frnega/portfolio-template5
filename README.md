@@ -9,7 +9,6 @@ https://frnega.github.io/portfolio-template5/
 
  HTML, CSS3,java script  Github flow and VSCode
 
-
 ## Getting Started
 
 To get a local copy up and running follow these simple  steps.

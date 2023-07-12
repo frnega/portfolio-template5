@@ -228,17 +228,17 @@ const storeObj = {
     source: '#',
   },
   4: {
-    name: 'Project name goes here',
-    description: 'Leader Board is a web application that allows the user to enter a team member and him/his score and it stores the scores for each member and sorts the scores in increased order.',
+    name: 'Book-An-Appointment-Front-End',
+    description: 'Coders-Hub application allows user to reverse different online classes depending on their preferences. They are the assigned a mentor for each course and also get to choose how long that want to participate on the course.',
     featuredImg: [
       'image/Popup-menu/popup-4/Rectangle24.png',
       'image/Popup-menu/popup-4/Rectangle24.png',
       'image/Popup-menu/popup-4/Rectangle24.png',
       'image/Popup-menu/popup-4/Rectangle24.png',
     ],
-    technologies: ['HTML/Css', 'Ruby on Rails', 'JavaScript'],
-    live: '#',
-    source: '#',
+    technologies: ['HTML/Css', 'Ruby on Rails', 'React'],
+    live: 'https://codershub-8u8o.onrender.com/login',
+    source: 'https://github.com/frnega/Book-An-Appointment-Front-End',
   },
   5: {
     name: 'Project name goes here',

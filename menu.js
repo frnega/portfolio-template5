@@ -198,8 +198,8 @@ const storeObj = {
       'image/Project/comment.png',
     ],
     technologies: ['HTML/Css', 'Bootstrap', 'JavaScript'],
-    live: 'href=https://frnega.github.io/capstone-JavaScript/dist/index.html',
-    source: 'href=https://github.com/frnega/capstone-JavaScript',
+    live: 'https://frnega.github.io/capstone-JavaScript/dist/index.html',
+    source: 'https://github.com/frnega/capstone-JavaScript',
   },
   2: {
     name: '',

@@ -194,8 +194,8 @@ const storeObj = {
     featuredImg: [
       'image/project/recipe.png',
       'image/project/contact.png',
-      'image/Project/commenttext.png',
-      'image/Project/comment.png',
+      'image/Project/commenttextn.png',
+      'image/Project/commentn.png',
     ],
     technologies: ['HTML/Css', 'Bootstrap', 'JavaScript'],
     live: 'https://frnega.github.io/capstone-JavaScript/dist/index.html',

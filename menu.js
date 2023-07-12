@@ -189,20 +189,20 @@ document
 
 const storeObj = {
   1: {
-    name: 'Project name goes here',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
+    name: 'Seafood Web',
+    description: 'Our JavaScript capstone project entailed the development of a web application that leverages an external API. Our team carefully selected an API that provides comprehensive data on Meals, and we subsequently constructed the web app centered around this API. The resulting webpage is the culmination of our teams efforts.',
     featuredImg: [
-      'image/Popup-menu/popup-1/Rectangle21.jpg',
-      'image/Popup-menu/popup-1/Rectangle21.jpg',
-      'image/Popup-menu/popup-1/Rectangle21.jpg',
-      'image/Popup-menu/popup-1/Rectangle21.jpg',
+      'image/project/recipe.png',
+      'image/project/contact.png',
+      'image/Project/commenttext.png',
+      'image/Project/comment.png',
     ],
-    technologies: ['HTML/Css', 'Ruby on Rails', 'JavaScript'],
-    live: '#',
-    source: '#',
+    technologies: ['HTML/Css', 'Bootstrap', 'JavaScript'],
+    live: 'href=https://frnega.github.io/capstone-JavaScript/dist/index.html',
+    source: 'href=https://github.com/frnega/capstone-JavaScript',
   },
   2: {
-    name: 'Project name goes here',
+    name: '',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi <br> Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
     featuredImg: [
       'image/Popup-menu/popup-2/Rectangle46.png',

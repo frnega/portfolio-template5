@@ -202,20 +202,20 @@ const storeObj = {
     source: 'https://github.com/frnega/capstone-JavaScript',
   },
   2: {
-    name: '',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi <br> Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
+    name: 'World Metrics',
+    description: 'A mobile web application using React and Redux to facilitate the monitoring of various metrics, all represented as numeric values. The application will allow users to access and check this list of metrics conveniently on their mobile devices.',
     featuredImg: [
-      'image/Popup-menu/popup-2/Rectangle46.png',
-      'image/Popup-menu/popup-2/Rectangle46.png',
-      'image/Popup-menu/popup-2/Rectangle46.png',
-      'image/Popup-menu/popup-2/Rectangle46.png',
+      'image/project1/country.png',
+      'image/project1/details.png',
+      'image/project1/homepage2.png',
+      'image/project1/search.png',
     ],
-    technologies: ['HTML/Css', 'Ruby on Rails', 'JavaScript'],
+    technologies: ['HTML/Css', 'React/Redux', 'JavaScript'],
     live: '#',
     source: '#',
   },
   3: {
-    name: 'Project name goes here',
+    name: 'Math-Magicians',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi <br> Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
     featuredImg: [
       'image/Popup-menu/popup-3/Rectangle23.png',

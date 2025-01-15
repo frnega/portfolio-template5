@@ -241,16 +241,16 @@ const storeObj = {
     source: 'https://github.com/frnega/Book-An-Appointment-Front-End',
   },
   5: {
-    name: 'kingdom sound web page',
-    description: 'Creating a responsive webpage for Kingdom Sound is a project that involves using HTML, CSS, and JavaScript to build a website that adapts and scales appropriately across different devices and screen sizes. The purpose is to ensure that the webpage looks and functions well on desktops, laptops, tablets, and mobile phones.',
+    name: 'DR Tekalign Nega',
+    description: 'Website built using wordpress',
     featuredImg: [
       'image/project4/homepage5.png',
       'image/project4/main.png',
       'image/project4/detail.png',
       'image/project4/details2.png',
     ],
-    technologies: ['HTML/Css', 'Bootstarp', 'JavaScript'],
-    live: 'https://frnega.github.io/frnega.firstcapstone.github.io/index.html',
+    technologies: ['WordPress', 'Scripts','Avada Team'],
+    live: 'https://tekalignnega.com/',
     source: '#',
   },
   6: {
